@@ -9,8 +9,8 @@ The single main thing (a task or a conversation) we were focused on when we last
 ## Current main thread
 
 - **Thread:** SecondBrain vault synced to GitHub + iPhone (Working Copy). Git backup live.
-- **State:** Vault pushed to private repo `ariadne042/SecondBrain` (SSH key auth, main branch). `Meta/Passwords.md` gitignored (secrets stay local). New `Inbox/Phone Notes.md` for phone captures. Gmail account + Bitwarden + Working Copy on iPhone all DONE. Caveat: Bitwarden's sync that pushes to GitHub requires the **paid tier** — the free tier can't do it.
-- **Next step:** Open — resolve the phone↔GitHub sync given Bitwarden's paid-tier limitation (e.g. drop Bitwarden-to-GitHub, use Working Copy directly against the repo, or accept a different sync path). Possibly a one-command push script for /brain captures.
+- **State:** Vault pushed to private repo `ariadne042/SecondBrain` (SSH key auth, main branch). `Meta/Passwords.md` gitignored (secrets stay local). New `Inbox/Phone Notes.md` for phone captures. Gmail account + Bitwarden + Working Copy on iPhone all DONE and working.
+- **Next step:** Open/optional — a one-command push script/habit for /brain captures. Otherwise the setup is complete.
 
 ---
 
