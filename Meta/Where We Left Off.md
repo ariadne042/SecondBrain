@@ -8,9 +8,9 @@ The single main thing (a task or a conversation) we were focused on when we last
 
 ## Current main thread
 
-- **Thread:** SecondBrain vault synced to GitHub + iPhone (Working Copy). Git backup live.
-- **State:** Vault pushed to private repo `ariadne042/SecondBrain` (SSH key auth, main branch). `Meta/Passwords.md` gitignored (secrets stay local). New `Inbox/Phone Notes.md` for phone captures. Gmail account + Bitwarden + Working Copy on iPhone all DONE and working.
-- **Next step:** Open/optional — a one-command push script/habit for /brain captures. Otherwise the setup is complete.
+- **Thread:** SecondBrain vault synced to GitHub + iPhone. Git backup live.
+- **State:** Vault pushed to private repo `ariadne042/SecondBrain` (SSH key auth, main branch). `Meta/Passwords.md` gitignored (secrets stay local). New `Inbox/Phone Notes.md` for phone captures. Gmail + Bitwarden + Working Copy on iPhone all DONE. **Phone→vault sync now via the official GitHub iOS app** (commit straight to remote — free, no Working Copy pro needed). `brain-sync` (laptop) updated to **pull-first then push**, so phone commits auto-sync down. Working Copy push is pro-gated; iSH route abandoned. Tested live: phone commit → laptop pull worked.
+- **Next step:** none required — flow working. Optional: wire a phone-note capture habit into the loop. Drop old `~/.ssh/id_ed25519_ish` if the iSH route is fully abandoned.
 
 ---
 
