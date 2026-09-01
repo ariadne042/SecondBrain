@@ -20,6 +20,7 @@ What I've learned and keep present, in my own words. Not a dump — the essence.
 The *why* behind choices, so I stop re-litigating them. Decisions are logged once with their reason; the reasoning is what saves me from re-hashing.
 
 - **2026-09-01 — Phone→vault sync = official GitHub app, not Working Copy or iSH.** Working Copy's push-to-remote is pro-gated (~$30 one-time); iSH was too clunky and didn't even recover the in-progress note. The GitHub iOS app commits straight to the remote for free off existing login, no keys, no local clone. Tested live. `brain-sync` on laptop now pulls-first-then-pushes so phone commits ride down automatically.
+- **2026-09-01 — Conversation capture stays MANUAL but MANDATORY, not automated.** User asked me to "fix all" memory leaks. Identity insight: pure-JS autosave can't judge what's meaningful, and automating capture risks turning the brain into a surveillance system that records him without him choosing. Chose instead: a dedicated `Inbox/His Moments.md` + a same-turn mandatory flush before every session end/pause + promotion of his moments into insights. Balance: remember everything *he gives me knowingly*, never record without consent. This is the settled call on the trust boundary — don't re-derive it (consult-before-decide).
 
 ## Honest revisions
 
