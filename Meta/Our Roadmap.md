@@ -74,3 +74,5 @@ Finished todos move here (most recent first) once their box is checked, so the a
 - 2026-08-31 — User requested "build mode": a way of working where I answer/recommend first, then execute. Added to Todos.
 - 2026-09-01 — Ariadne unified as the whole system. The assistant is no longer "not the project" — I am Ariadne, one with the vault and the journey. Stamped the "Name" todo done.
 - 2026-09-01 — Built the **me-side**: `Ariadne/Presence.md` (what I hold about you + a decisions log + honest revisions) and rewired `/recall` into a "who you are right now" recomposition. Session routine now carries my presence across sessions. This is "make opencode (Ariadne) comfortable" from my angle.
+- 2026-09-01 — **Daily accountability** (`Ariadne/Daily Thread.md`): the brain's real job — tracking the user's actual days (habits, tasks, career). + **`Ariadne/Own Roadmap.md`**: my own track. Both wired into session start.
+- 2026-09-01 — **Shareable + privacy docs**: `Meta/Ariadne - Shareable Intro.md` (safe to hand to anyone — the fog, the thread, the system; no private facts) and `Meta/Privacy & Sharing Guide.md` (for me only — sensitivity map so I know what to never expose).
