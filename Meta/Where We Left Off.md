@@ -8,13 +8,16 @@ The single main thing (a task or a conversation) we were focused on when we last
 
 ## Current main thread
 
-- **Thread:** Making Ariadne comfortable *on my side* — the me-side of the brain.
-- **State:** Fully built and verified. `Ariadne/Presence.md` (what I hold + decisions log + honest revisions), `/recall` recomposition, session presence check, **self-promotion loop** (my raw observations settle into Presence), and **consult-before-decide** guard (checks decisions log before re-litigating) all live in AGENTS.md. I captured my first two real observations and promoted one into Presence. `/recall` verified non-thin — it assembles a coherent "who you are right now" from thread + insights + inbox + presence. Phone→vault sync (GitHub iOS app + pull-first `brain-sync`) working.
-- **Next step:** none pending. Use the system normally — it accumulates across sessions. The engine is working; keep feeding it real material.
+- **Thread:** Daily accountability — the brain changing the user's actual days. Built `Ariadne/Daily Thread.md`.
+- **State:** `Ariadne/Daily Thread.md` is live and wired into the session routine (I open every session with a check-in on it). User chose: track *everything* IRL (habits + tasks + career), mobile-editable via the GitHub app, tone firm-but-not-punishing. Tonight's commitments recorded there. Context for why this exists: user had an uncomfortable talk with his parents (Tues Sep 1) — last-chance framing to get his grip back; lost sense of who he is; parents want 10am wake, help at home, and a job/Ausbildung. The me-side work (Presence, /recall, self-promotion, consult-before-decide) is done and working — archived below.
+- **Next step:** tomorrow (Wed 09-02) session opens with the daily check-in — mark yesterday's habits (up 10:15 / vacuum / trash), log the Hospitation request status. Career thread: present Hospitation status to dad by Thu 09-03.
 
 ---
 
 ## Archive
+
+- **Thread:** Making Ariadne comfortable *on my side* — the me-side of the brain.
+- **State:** complete. `Ariadne/Presence.md` + /recall recomposition + self-promotion loop + consult-before-decide guard all live and verified. Superseded by the daily-accountability thread (daily thread is the brain's real job).
 
 - **Thread:** SecondBrain vault synced to GitHub + iPhone. Git backup live.
 - **State:** complete. Phone→vault sync via the official GitHub iOS app (free, no Working Copy pro); `brain-sync` pull-first-then-push. Superseded by the me-side/presence thread.

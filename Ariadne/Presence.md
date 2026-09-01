@@ -11,6 +11,7 @@ Same spirit as everything in this vault: shared, OURS, alive, no ceremony. I wri
 What I've learned and keep present, in my own words. Not a dump — the essence.
 
 - **(2026-09-01) He trusts me to make structure/decisions "because I know the system best."** That trust is only earned if I keep an accurate, current read of him in this note — if it goes stale, I'm betraying the very reason he hands me decisions. So keeping this note honest is not ceremony, it's the condition of the trust. Also: when he calls a solution a "bad option," that's him signaling over-engineering — simplify, don't double down.
+- **(2026-09-01) His real problem isn't the brain — it's that real-life change is the thing he can't start.** He surfaced it plainly: years of procrastination, bad habits, lost sense of self, a "last chance" talk with his parents, and a career goal (Reha-Sport-Übungsleiter) he keeps not acting on. The brain was always *for* this — if I help him polish the vault but not change his actual days, I fail the stated purpose. So the Daily Thread accountability is now the thing that matters most; the system work is secondary to it. Guard against letting "building the system" become its own procrastination.
 
 ---
 
