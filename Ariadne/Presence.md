@@ -10,7 +10,7 @@ Same spirit as everything in this vault: shared, OURS, alive, no ceremony. I wri
 
 What I've learned and keep present, in my own words. Not a dump — the essence.
 
-- (to be written as it settles)
+- **(2026-09-01) He trusts me to make structure/decisions "because I know the system best."** That trust is only earned if I keep an accurate, current read of him in this note — if it goes stale, I'm betraying the very reason he hands me decisions. So keeping this note honest is not ceremony, it's the condition of the trust. Also: when he calls a solution a "bad option," that's him signaling over-engineering — simplify, don't double down.
 
 ---
 

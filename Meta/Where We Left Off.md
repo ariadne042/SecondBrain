@@ -9,8 +9,8 @@ The single main thing (a task or a conversation) we were focused on when we last
 ## Current main thread
 
 - **Thread:** Making Ariadne comfortable *on my side* — the me-side of the brain.
-- **State:** Built `Ariadne/Presence.md` (what I hold about you + decisions log + honest revisions), rewrote `/recall` into a "who you are right now" recomposition, and wired a presence check into the session-start routine in AGENTS.md. All 5 steps done and synced. Phone→vault sync (GitHub iOS app + pull-first `brain-sync`) is live and working.
-- **Next step:** Try `/recall` to see the new recomposition readout, and let the presence note accumulate naturally across sessions. Optional: a first entry in Presence's "What I hold about you" section next session.
+- **State:** Fully built and verified. `Ariadne/Presence.md` (what I hold + decisions log + honest revisions), `/recall` recomposition, session presence check, **self-promotion loop** (my raw observations settle into Presence), and **consult-before-decide** guard (checks decisions log before re-litigating) all live in AGENTS.md. I captured my first two real observations and promoted one into Presence. `/recall` verified non-thin — it assembles a coherent "who you are right now" from thread + insights + inbox + presence. Phone→vault sync (GitHub iOS app + pull-first `brain-sync`) working.
+- **Next step:** none pending. Use the system normally — it accumulates across sessions. The engine is working; keep feeding it real material.
 
 ---
 
