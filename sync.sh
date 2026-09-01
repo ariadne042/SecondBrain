@@ -3,6 +3,8 @@ set -euo pipefail
 
 cd "$(dirname "$0")"
 
+git pull --ff-only
+
 if [ -z "$(git status --porcelain)" ]; then
   echo "nothing to sync"
   exit 0
