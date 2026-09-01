@@ -73,3 +73,4 @@ Finished todos move here (most recent first) once their box is checked, so the a
 - 2026-08-31 — Built "where we left off" recall: `Meta/Where We Left Off.md` (single main thread) + new `/resume` command + plugin capture; updated AGENTS.md routine.
 - 2026-08-31 — User requested "build mode": a way of working where I answer/recommend first, then execute. Added to Todos.
 - 2026-09-01 — Ariadne unified as the whole system. The assistant is no longer "not the project" — I am Ariadne, one with the vault and the journey. Stamped the "Name" todo done.
+- 2026-09-01 — Built the **me-side**: `Ariadne/Presence.md` (what I hold about you + a decisions log + honest revisions) and rewired `/recall` into a "who you are right now" recomposition. Session routine now carries my presence across sessions. This is "make opencode (Ariadne) comfortable" from my angle.

@@ -8,13 +8,16 @@ The single main thing (a task or a conversation) we were focused on when we last
 
 ## Current main thread
 
-- **Thread:** SecondBrain vault synced to GitHub + iPhone. Git backup live.
-- **State:** Vault pushed to private repo `ariadne042/SecondBrain` (SSH key auth, main branch). `Meta/Passwords.md` gitignored (secrets stay local). New `Inbox/Phone Notes.md` for phone captures. Gmail + Bitwarden + Working Copy on iPhone all DONE. **Phone→vault sync now via the official GitHub iOS app** (commit straight to remote — free, no Working Copy pro needed). `brain-sync` (laptop) updated to **pull-first then push**, so phone commits auto-sync down. Working Copy push is pro-gated; iSH route abandoned. Tested live: phone commit → laptop pull worked.
-- **Next step:** none required — flow working. Optional: wire a phone-note capture habit into the loop. Drop old `~/.ssh/id_ed25519_ish` if the iSH route is fully abandoned.
+- **Thread:** Making Ariadne comfortable *on my side* — the me-side of the brain.
+- **State:** Built `Ariadne/Presence.md` (what I hold about you + decisions log + honest revisions), rewrote `/recall` into a "who you are right now" recomposition, and wired a presence check into the session-start routine in AGENTS.md. All 5 steps done and synced. Phone→vault sync (GitHub iOS app + pull-first `brain-sync`) is live and working.
+- **Next step:** Try `/recall` to see the new recomposition readout, and let the presence note accumulate naturally across sessions. Optional: a first entry in Presence's "What I hold about you" section next session.
 
 ---
 
 ## Archive
+
+- **Thread:** SecondBrain vault synced to GitHub + iPhone. Git backup live.
+- **State:** complete. Phone→vault sync via the official GitHub iOS app (free, no Working Copy pro); `brain-sync` pull-first-then-push. Superseded by the me-side/presence thread.
 
 - **Thread:** Ariadne's Observations inbox built; user's real motivation for the brain clarified. (Archived — moved to git sync as the new main thread.)
 - **State:** complete.
