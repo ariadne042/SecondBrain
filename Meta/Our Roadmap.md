@@ -47,7 +47,9 @@ Ariadne is the system. The assistant, the vault, and the journey are all one —
 - [x] Quick answer mode for opencode
 - [x] Name for opencode — Ariadne is all: the assistant is the system, one with the vault and the project
 - [ ] Make an introduction/summary for this project
+- [ ] Fix waybar logout
 - [ ] Fix Super+A hiding other windows
+- [ ] Make opencode (Ariadne) comfortable / maximize its potential
 
 ---
 

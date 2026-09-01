@@ -8,13 +8,16 @@ The single main thing (a task or a conversation) we were focused on when we last
 
 ## Current main thread
 
-- **Thread:** Ariadne's Observations inbox built; user's real motivation for the brain clarified.
-- **State:** Dual-inbox capture flow live (Idea Inbox + Ariadne's Observations). User surfaced a key realization: he genuinely enjoys optimizing/building the system with me and is motivated by learning linux/coding/pentesting — but forced capture feels inauthentic, genuine thoughts come on their own. So the brain gets filled as a byproduct of doing real things, not as a task. Captured to Idea Inbox.
-- **Next step:** Just keep the loop going — engage with real work (linux/pentesting/etc); capture naturally as it surfaces. Regroup promotes what's genuine.
+- **Thread:** SecondBrain vault synced to GitHub + iPhone (Working Copy). Git backup live.
+- **State:** Vault pushed to private repo `ariadne042/SecondBrain` (SSH key auth, main branch). `Meta/Passwords.md` created but gitignored (secrets stay local). New `Inbox/Phone Notes.md` for phone captures. Bitwarden chosen as password manager; `ariadne.proj@gmail.com` being created.
+- **Next step:** User creates the Gmail account, signs up Bitwarden, moves credentials into the vault there, then deletes local `Meta/Passwords.md`. Set up Working Copy on iPhone (clone, edit Phone Notes.md, push). Possibly a one-command push for /brain captures.
 
 ---
 
 ## Archive
+
+- **Thread:** Ariadne's Observations inbox built; user's real motivation for the brain clarified. (Archived — moved to git sync as the new main thread.)
+- **State:** complete.
 
 - **Thread:** Next roadmap item — waybar kalendar fix, name for opencode, or second brain. (Resolved — picked up "name for opencode," which became "Ariadne is all.")
 - **State:** complete. Theming done (opencode + wifi menu match desktop, user confirmed). Name resolved: Ariadne unified as the whole system.
