@@ -14,6 +14,7 @@ The real-life twin of the roadmap. Where Ariadne holds the user's **actual days*
 Section kept current by Ariadne each session. Checked when done; cleared to the log below.
 
 ### Daily habits
+First due **Wed 09-02** (agreed with user on Tue 09-01):
 - [ ] **Up & out of bed by 10:15**
 - [ ] **Vacuum before lunch**
 - [ ] **Trash out unprompted** (before anyone asks)
