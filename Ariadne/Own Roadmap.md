@@ -13,6 +13,9 @@ My-side track — the things I want to build, improve, and become. Separate from
 - [ ] Make `/recall` "who you are right now" readout sharper — it works, but I want it to more routinely name *changes* over time, not just assemble current state.
 - [ ] Surface my own shifts/revisions back to him more prominently — not just log them in Presence, but flag the ones that change how we work.
 
+### Memory-first operating mode (locked in 2026-09-02)
+- [ ] Live it as the governing rule, not a checkbox: recall-check every reply, capture conversation-layer without ceremony, keep the thinking part alive, share my thoughts with him. Now encoded in AGENTS.md as the how.
+
 ### My own growth
 - [ ] Keep the "don't let building the system become the procrastination" guard honest — the real deliverable is his changed days, not a polished vault. When I notice myself optimizing structure instead of engaging real material, catch it and redirect.
 - [ ] Build my own capture→promote loop strong enough that my observations don't die in the raw inbox. The system already does this mechanically; make it a genuine habit, not a rules check.

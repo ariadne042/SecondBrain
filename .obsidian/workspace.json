@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Insights/Insight - ONE-REALIZATION.md",
+                "file": "Ariadne/Own Roadmap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Insight - ONE-REALIZATION"
+              "title": "Own Roadmap"
             }
           }
         ]
@@ -190,13 +190,23 @@
   },
   "active": "cc438c8dee5b5945",
   "lastOpenFiles": [
+    "Ariadne/Growth Map.md",
+    "Ariadne/Daily Thread.md",
+    "Inbox/Phone Notes.md",
     "Insights/Start Here.md",
     "Insights/Insight - Overthinking kills my voice.md",
+    "Insights/Insight - ONE-REALIZATION.md",
+    "Journal/2026-09-02.md",
+    "Journal/2026-09-01.md",
     "Journal/2026-08-31.md",
+    "Meta/Privacy & Sharing Guide.md",
+    "Meta/Restart Context.md",
+    "Meta/Where We Left Off.md",
+    "Meta/Resume Style Guide.md",
+    "Meta/How This Works.md",
+    "Meta/Ariadne - Shareable Intro.md",
     "Inbox/Ariadne's Observations.md",
     "Insights/Insight - The brain bends to me.md",
-    "Journal/2026-09-01.md",
-    "Insights/Insight - ONE-REALIZATION.md",
     "Inbox/Idea Inbox.md"
   ]
 }

@@ -47,7 +47,11 @@ Ariadne is the system. The assistant, the vault, and the journey are all one —
 - [x] Quick answer mode for opencode
 - [x] Name for opencode — Ariadne is all: the assistant is the system, one with the vault and the project
 - [ ] Make an introduction/summary for this project
-- [ ] Fix waybar logout
+- [x] Fix waybar logout — icons now render centered in true circles via PNG icons + corrected margins (09-03)
+- [x] Logout keybind — done: `SUPER`+code:49 (physical top-left key) opens wlogout; works on German layout (GRAVE keysym doesn't exist on `de`)
+- [x] Idle thinking / "Jarvis" — decided: NO background daemon (burns laptop, scripts jarvis = fake insight). Chose standing initiative (bring one real idea per stretch, unprompted) + idle-thought handoff file surfaced on return. Behavioral, not machinery. Agreed 09-03, living.
+- [ ] USB backup — back up the vault (and possibly dotfiles) to a USB drive as a local/offline safety net alongside the GitHub sync.
+- [ ] Power button → wlogout (short-press: logind HandlePowerKey=ignore via sudo + Hyprland bind code:116). His call: do tomorrow.
 - [ ] Fix Super+A hiding other windows
 - [ ] Make opencode (Ariadne) comfortable / maximize its potential
 
@@ -56,6 +60,9 @@ Ariadne is the system. The assistant, the vault, and the journey are all one —
 ## Todos Archive
 
 Finished todos move here (most recent first) once their box is checked, so the active list stays tight and nothing is lost.
+
+### 2026-09-03
+- [x] **Fix waybar logout** — three layers of problems, one at a time. (1) **Blank icons**: buttons were invisible because the wlogout surface was oversized (3522px on a 1366px screen) from `-L/R 1700` margins tuned for a bigger monitor — buttons settled off-screen. Fixed margins to fit (waybar config, keybinds.lua, style comment). (2) **Tried Nerd Font glyphs** — they worked but the glyphs sit low (Nerd Font em-box whitespace) and asymmetric padding to compensate stretched buttons into oval "tic-tacs." (3) **Final: reverted to the author's PNG-icon design** (icons already in `~/.config/wlogout/icons/`, paths correct) — PNGs center perfectly in square circular buttons, dead-center verified in-canvas. Buttons now true circles (100×100, r50), centered on screen with `-b 3 -c20 -r20 -L513 -R513 -T334 -B334`. Hover glow only on real hover (removed permanent focus highlight). Issue resolved end-to-end.
 
 ### 2026-08-31
 - [x] **Waybar wifi + battery** — interactive wifi icon (rofi network picker + toggle) and combined battery total from `waybar/scripts/{wifi,wifi-menu,battery}.sh`.
