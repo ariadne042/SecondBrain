@@ -11,7 +11,7 @@ Why the plain "where we left off" isn't enough: when the user restarts opencode,
 
 ## Pending
 
-(none)
+- 2026-09-04 ~01:00 → new `/save` command added (`~/.config/opencode/commands/save.md`): clean full-save (Where We Left Off + flush moments + git sync). Needs opencode restart to register. Also AGENTS.md morning/evening routine changed same night (Evening Thread) — both load together on the next restart.
 
 ---
 
