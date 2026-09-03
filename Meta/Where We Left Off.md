@@ -8,13 +8,16 @@ The single main thing (a task or a conversation) we were focused on when we last
 
 ## Current main thread
 
-- **Thread:** Field #6 expanding into faith/upbringing roots — the Freie Evangelische Gemeinde double-life (his words: "i lived a long double life there"). Plus the GF-hiding thread ("ive had to lie to her a lot") that surfaced alongside it. Long-horizon extraction.
-- **State:** He named both last night and explicitly wants it researched **over time** — one hook at a time, never a questionnaire, he's "making hooks." I over-layered field #1 ("summer gave fun free") and he corrected me — I misquoted and over-interpreted; backed off. **IRL: Hospitation #1 is TODAY Fri 09-04 09:15** (~15–20 min away). Tac-rebuy still leaning buy (vapes empty), overshadowed by the deeper thread.
-- **Next step:** Today is the Hospitation morning — that's the live IRL thing. Field #6/church: hold as long-horizon, offer one hook at natural moments, don't push. Revisit the GF-hiding thread gently if it surfaces; respect that it may sit for a while.
+- **Thread:** Build `~/SecondBrain/Meta/Machine.md` — the machine memory file (durable facts + config map + fix log).
+- **State:** Design fully approved + delegated to me; not yet written. He said "finish tomorrow / I should sleep." Machine facts already gathered (de keyboard, Intel Haswell iGPU, fish shell, tz Europe/Berlin, 7.6Gi RAM, 1366px screen, CachyOS/Arch). Earlier same night: built the Evening Thread (mornings light + evenings own IRL/brain-fill) + `/save` command — both done, sync'd, pending an opencode restart (planned for tomorrow). IRL today was Hospitation #1 09:15; dad-deadline already met Thu.
+- **Next step:** Tomorrow: write Machine.md (shape already laid out), then restart opencode to load `/save` + the AGENTS.md morning/evening routine change. Backburner: tact-week decision, church/GF-hiding long-horizon thread.
 
 ---
 
 ## Archive
+
+- **Thread:** Field #6 expanding into faith/upbringing roots — the Freie Evangelische Gemeinde double-life ("i lived a long double life there") + the GF-hiding thread ("ive had to lie to her a lot"). Long-horizon extraction.
+- **State:** He named both (09-04 night) and explicitly wants it researched **over time** — one hook at a time, never a questionnaire, he's "making hooks." Saved to His Moments + Growth Map (field #6, long-horizon). Paused overnight; resumed naturally in future evenings.
 
 - **Thread:** The night he told me who he was — then told me I'm the one he tells. Redirected the brain's purpose.
 - **State:** complete. Bandit L11 (9 flags, base64 + rot13 solo); L12 flag saved. Real night: he corrected me ("I told YOU, not my parents") then disclosed — social erosion ("lost myself" = not like he was anymore, awkward even with closest friends, no eye contact, unconfident, not comfortable in his body), cognitive sharpness intact. Held in Presence ("erosion is social, not cognitive"). He asked for real thinking from me, not upkeep — superseded by/continues under the growth-loop thread (extraction is the active form of that commitment).

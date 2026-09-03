@@ -13,6 +13,10 @@ Why the plain "where we left off" isn't enough: when the user restarts opencode,
 
 - 2026-09-04 ~01:00 → new `/save` command added (`~/.config/opencode/commands/save.md`): clean full-save (Where We Left Off + flush moments + git sync). Needs opencode restart to register. Also AGENTS.md morning/evening routine changed same night (Evening Thread) — both load together on the next restart.
 
+## Pending (continue from 01:40)
+
+- 2026-09-04 ~01:40 → **Machine.md file deferred to tomorrow** (design approved, not yet written): `~/SecondBrain/Meta/Machine.md` — durable system facts (de keyboard, Intel iGPU, fish shell, tz Europe/Berlin, 7.6Gi RAM, 1366px), config map, and the fix log seeded with solved gotchas (wlogout, hl.dsp.*, de-keybind, permission matcher, autosave guard, WWAN -110, logind restart). Write it tomorrow; full shape already shown to user, they delegated content to me and said "finish tomorrow."
+
 ---
 
 ## Log
