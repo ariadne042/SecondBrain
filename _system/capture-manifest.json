@@ -8,10 +8,10 @@
     "end": "2026-09-05 02:16",
     "leftoffTouched": false,
     "momentsTouched": false,
-    "verdict": "EMPTY",
-    "verdictAt": "2026-09-05 02:16",
+    "verdict": "OK",
+    "verdictAt": "2026-09-05 03:30",
     "flagged": false,
-    "resolved": false
+    "resolved": true
   },
   "ses_f911370f9ffexCKywiM0aiTg7M": {
     "start": "2026-09-05 02:39",
@@ -47,6 +47,20 @@
     "leftoff0": 1788570023634.301,
     "moments0": 1788570023630.0132,
     "title": "New session - 2026-09-05T01:02:08.501Z",
+    "end": "2026-09-05 03:10",
+    "leftoffTouched": false,
+    "momentsTouched": false,
+    "verdict": "OK",
+    "verdictAt": "2026-09-05 03:30",
+    "flagged": false,
+    "resolved": true
+  },
+  "ses_f90e21023ffeF34i3NivlKOktZ": {
+    "start": "2026-09-05 03:10",
+    "activityMsgs": 50,
+    "leftoff0": 1788570576327.0564,
+    "moments0": 1788570023630.0132,
+    "title": "New session - 2026-09-05T01:10:28.061Z",
     "end": null,
     "leftoffTouched": false,
     "momentsTouched": false,
