@@ -8,9 +8,9 @@ The single main thing (a task or a conversation) we were focused on when we last
 
 ## Current main thread
 
-- **Thread:** Capture-integrity system — built, tested, deployed, restart loaded (09-04).
-- **State:** New `brain-audit.ts` plugin (heartbeat + 3-state verdicts GAP/SUSPECT/OK + flags.md, all in git-backed `_system/`), tz fix in autosave (`today()` = local date), `sync.sh` now mirrors MEMORY/.last-saved-thread into `_system/backup/`, `_system/tools/retire-memory.mjs` + `archive/` built, AGENTS.md startup got audit/heartbeat/timeline/weekly-synthesis/bounded-read steps. All three verdict paths verified live (GAP, OK, SUSPECT). Restart happened (pending reason rotated to Log 09-04).
-- **Next step:** First live check: flags.md + heartbeat fresh, audit swept over this build session. Then the deferred offers: persisted per-level Bandit state file (L5→6/L6→7 passwords, so no redo), ask what the "system fix" was (kitty.conf verified: ctrl+c/ctrl+v/ctrl+z mappings at 12:56 today), then the evening thread. (09-04 late: new rules in — ask-before-overwrite on any stored-fact collision; idea-from-him = input to reason on, not instruction.)
+- **Thread:** Capture-integrity audit — first live check failed, logic fixed, needs restart to load.
+- **State:** First live check exposed a real bug: `brain-audit.ts` sweep ran at plugin-load and ruled the freshly-opened LIVE session (bogus SUSPECT); `beginWindow` reopen reset counters/baselines so the whole 09-04 build session read EMPTY/0-activity — its content actually survived. Fixed: sweep deferred to first session event + skips the live id; reopens keep cumulative activity + original baselines; EMPTY verdicts are reopenable. Manifest/flags got hand-repaired (build session EMPTY->OK, resolved) but the RUNNING old-code plugin clobbered it (02:29) — re-apply after restart. All committed: `928e58a` (`_system/` + Machine.md + Journal-09-04 + pending edits now git-backed).
+- **Next step:** restart to load the fix, then re-apply the manifest repair for the build session (content verified survived), and confirm the live check passes clean: heartbeat fresh, sweep skips the live session, no bogus flags.
 
 ---
 
