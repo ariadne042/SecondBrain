@@ -11,11 +11,13 @@ Why the plain "where we left off" isn't enough: when the user restarts opencode,
 
 ## Pending
 
-- 2026-09-05 02:30 → needs restart to load the brain-audit.ts logic fix (sweep deferral + cumulative counters + EMPTY reopenable). Also after restart: re-apply/verify the manifest repair for the build session (clobbered by the running old-code plugin; content verified survived, verdict EMPTY->OK). The flags/manifest re-write at 02:29 was the old plugin still alive — expected.
+_(empty — last restart consumed 2026-09-05)_
 
 ---
 
 ## Log
+
+- 2026-09-05 (fresh open) → loaded: brain-audit.ts logic fix (sweep deferral + cumulative counters + EMPTY reopenable) now live. Remaining from this pending: re-apply/verify the manifest repair for the 09-04 build session (verdict EMPTY->OK, flags resolved) + confirm the live check passes clean.
 
 - 2026-09-04 ~21:50 → loaded: the FULL audit build went in and needs a restart to load: new `brain-audit.ts` plugin (capture-integrity — heartbeat, 3-state verdicts, flags.md) registered in opencode.jsonc; `ariadne-autosave.ts` tz fix (local date instead of UTC); `sync.sh` now backs up MEMORY.md/.last-saved-thread into git-backed `_system/backup/`; AGENTS.md startup got audit-flag + heartbeat + timeline + weekly-synthesis + bounded-read steps; `_system/tools/retire-memory.mjs` + `_system/archive/` created. After restart: plugin loads, sweep rules over any window that ended since, flags.md goes live.
 

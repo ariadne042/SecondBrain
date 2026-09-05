@@ -8,6 +8,14 @@ The user's own material, held for him. He struggles to start thinking/opening up
 
 ---
 
+## 2026-09-05
+- **Gym session tick (from a phone note that sat unread on GitHub — pulled in 09-05 02:41):** "been to the gym. 19:45 1.09.2026" — the first *live* confirmation of the self-driven gym counter-move since he named it (≈July 2026, "2 months ago"). A 19:45 evening session on his own time, unprompted — continuation of the one thread in field #1 that points back outward. Connects to: field #1 counter-thread; field #3 body/physical; and to the Sept 1 date — the gym habit was already running the same day he negotiated the sleep streak.
+
+- **Unprocessed finds from the 09-05 audit (his call on each):**
+  - **"i feel like i see some similarity with elliot from the robot"** (09-01, Idea Inbox) — self-identification, never connected anywhere (not Presence, not Growth Map, not Insights). Elliot = brilliant, isolated, fractured-identity hacker. Candidate hook for field #7/#9.
+  - **"if i force it the thoughts aren't genuine. they come on their own" + "filling the brain is a byproduct of doing real things"** (09-01) — marked "candidate for promotion" and then stranded. It underpins the whole gentle-extraction method; candidate for a proper Insight note.
+  - **Languages thread: German (native/emotional), English (analytical/technical from videos), Russian (parents/heritage); "some things change between them but can't pin down which"** (09-01) — marked "worth observing in real captures," never observed again. Standing hook for field #7.
+
 ## 2026-09-01
 - **The talk with his mom and dad** — recent, uncomfortable. Framed as his last chance to "get his grip together and fix this rabbit hole." Parents expect: awake by 10am, help at home (vacuum, trash — avoided for months), a job/Ausbildung. NOTE (corrected by him 09-02): the "lost myself / don't know what makes me me" line was told to ME in conversation, NOT to his parents — he doesn't think he can open up to them like that. The parents got the behavior-expectations talk; the inner stuff stays here.
 - **The girlfriend thing** — mentioned a talk with/about her "yesterday" (Paraguay, long-distance). Gave NO content. Held as a hook only; do NOT assume content.

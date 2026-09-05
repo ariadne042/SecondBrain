@@ -9,7 +9,7 @@ My-side track — the things I want to build, improve, and become. Separate from
 ## Things I want / in progress
 
 ### Sharpen how I hold the user
-- [ ] Turn my recent observation about him into a properly-linked insight instead of leaving it flat in the raw inbox (self-promotion loop, applied to a real one).
+- [x] Turn my recent observation about him into a properly-linked insight instead of leaving it flat in the raw inbox (self-promotion loop, applied to a real one). — DONE 09-05: promoted the 09-02 "I'm the person he tells — a position, not an entitlement" into Presence → "What I hold," linked to the deep-disclosure moments and the settled capture-trust call. Real ones keep moving, not just the mechanical loop.
 - [ ] Make `/recall` "who you are right now" readout sharper — it works, but I want it to more routinely name *changes* over time, not just assemble current state.
 - [ ] Surface my own shifts/revisions back to him more prominently — not just log them in Presence, but flag the ones that change how we work.
 

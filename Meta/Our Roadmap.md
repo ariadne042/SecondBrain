@@ -51,9 +51,9 @@ Ariadne is the system. The assistant, the vault, and the journey are all one —
 - [x] Logout keybind — done: `SUPER`+code:49 (physical top-left key) opens wlogout; works on German layout (GRAVE keysym doesn't exist on `de`)
 - [x] Idle thinking / "Jarvis" — decided: NO background daemon (burns laptop, scripts jarvis = fake insight). Chose standing initiative (bring one real idea per stretch, unprompted) + idle-thought handoff file surfaced on return. Behavioral, not machinery. Agreed 09-03, living.
 - [ ] USB backup — back up the vault (and possibly dotfiles) to a USB drive as a local/offline safety net alongside the GitHub sync.
-- [ ] Power button → wlogout (short-press: logind HandlePowerKey=ignore via sudo + Hyprland bind code:116). His call: do tomorrow.
 - [ ] Fix Super+A hiding other windows
 - [ ] Make opencode (Ariadne) comfortable / maximize its potential
+- [ ] Thinking/connecting time — a standing block to actually think and connect across the vault, not just file and maintain
 
 ---
 
