@@ -41,7 +41,7 @@ Legend: **held** = what's already carved · **next hook** = the open edge.
 - Next hook: (long-horizon, do NOT rush) — what was the version of him that couldn't show in the church? How did the double life there work? How did faith/church end? Let it surface naturally across many sessions.
 
 ### 7. The emotional map — OPEN
-- Held: fog→motion switch; overthinking kills voice; "a lot of other shit in my life" (non-drug weight, trauma-adjacent — don't assume, don't pry); the procrastination rabbit hole.
+- Held: fog→motion switch; overthinking kills voice; "a lot of other shit in my life" (non-drug weight, trauma-adjacent — don't assume, don't pry); the procrastination rabbit hole. **NEW (09-04): "my brain still performs when I don't want it to"** — the old perform/double-life script runs on its own even when he's consciously decided not to; no example given yet, hold as a standing hand-back to recognize with him when one surfaces. Same root as the crush-freeze + social erosion.
 - Next hook: how do anger/sadness/joy surface (or not) in a normal day? What happens when something actually hurts?
 
 ### 8. The engine deconstructed — PARTIAL (the hot-start/drop cycle)
@@ -50,8 +50,8 @@ Legend: **held** = what's already carved · **next hook** = the open edge.
 - Next hook: which drops were boredom (flat ceiling) vs self-judgment? Does the Bandit streak end like a flat-ceiling drop or a self-judgment one? What was the last non-RL thing that felt as steep?)
 
 ### 9. Friends / social world — OPEN
-- Held: awkward even with closest friends, overthinking what they think of him, no eye contact. Unknown who they are or what the relationships look like.
-- Next hook: who are the people he actually spends time with? What does socializing cost him now vs before?
+- Held: awkward even with closest friends, overthinking what they think of him, no eye contact. Unknown who they are or what the relationships look like. **COUNTER-DATA (09-04):** felt improved social ease at Lucas's place — acted more freely, felt good, even with the tac (which usually *amps* the awkwardness). The erosion is NOT uniform — in the trusted-friend room it lifts. Luca = closest friend (Brawlhalla/Netflix/sharing code day).
+- Next hook: who are the people he actually spends time with? What does socializing cost him now vs before? (What was different on the 09-04 good day?)
 
 ---
 

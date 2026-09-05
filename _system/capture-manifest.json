@@ -1,0 +1,32 @@
+{
+  "sessions": {
+    "ses_f92096b6cffeAJPl1ltTRF21IU": {
+      "start": "2026-09-04 22:01",
+      "activityMsgs": 0,
+      "leftoff0": 1788551695308.4631,
+      "moments0": 1788552069950.045,
+      "title": "New session - 2026-09-04T19:47:51.571Z",
+      "end": "2026-09-05 02:16",
+      "leftoffTouched": false,
+      "momentsTouched": false,
+      "verdict": "EMPTY",
+      "verdictAt": "2026-09-05 02:16",
+      "flagged": false,
+      "resolved": false
+    },
+    "ses_f911370f9ffexCKywiM0aiTg7M": {
+      "start": "2026-09-05 02:21",
+      "activityMsgs": 42,
+      "leftoff0": 1788567410613.9453,
+      "moments0": 1788552069950.045,
+      "title": "New session - 2026-09-05T00:16:32.007Z",
+      "end": null,
+      "leftoffTouched": false,
+      "momentsTouched": false,
+      "verdict": null,
+      "verdictAt": null,
+      "flagged": false,
+      "resolved": false
+    }
+  }
+}

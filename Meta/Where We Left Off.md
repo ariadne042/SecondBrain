@@ -8,13 +8,36 @@ The single main thing (a task or a conversation) we were focused on when we last
 
 ## Current main thread
 
-- **Thread:** Build `~/SecondBrain/Meta/Machine.md` — the machine memory file (durable facts + config map + fix log).
-- **State:** Design fully approved + delegated to me; not yet written. He said "finish tomorrow / I should sleep." Machine facts already gathered (de keyboard, Intel Haswell iGPU, fish shell, tz Europe/Berlin, 7.6Gi RAM, 1366px screen, CachyOS/Arch). Earlier same night: built the Evening Thread (mornings light + evenings own IRL/brain-fill) + `/save` command — both done, sync'd, pending an opencode restart (planned for tomorrow). IRL today was Hospitation #1 09:15; dad-deadline already met Thu.
-- **Next step:** Tomorrow: write Machine.md (shape already laid out), then restart opencode to load `/save` + the AGENTS.md morning/evening routine change. Backburner: tact-week decision, church/GF-hiding long-horizon thread.
+- **Thread:** Capture-integrity system — built, tested, deployed, restart loaded (09-04).
+- **State:** New `brain-audit.ts` plugin (heartbeat + 3-state verdicts GAP/SUSPECT/OK + flags.md, all in git-backed `_system/`), tz fix in autosave (`today()` = local date), `sync.sh` now mirrors MEMORY/.last-saved-thread into `_system/backup/`, `_system/tools/retire-memory.mjs` + `archive/` built, AGENTS.md startup got audit/heartbeat/timeline/weekly-synthesis/bounded-read steps. All three verdict paths verified live (GAP, OK, SUSPECT). Restart happened (pending reason rotated to Log 09-04).
+- **Next step:** First live check: flags.md + heartbeat fresh, audit swept over this build session. Then the deferred offers: persisted per-level Bandit state file (L5→6/L6→7 passwords, so no redo), ask what the "system fix" was (kitty.conf verified: ctrl+c/ctrl+v/ctrl+z mappings at 12:56 today), then the evening thread. (09-04 late: new rules in — ask-before-overwrite on any stored-fact collision; idea-from-him = input to reason on, not instruction.)
 
 ---
 
 ## Archive
+
+- **Thread:** Morning session recovered (Bandit redo 0→7, paused at L7 password wall). Fix the password-gap so redos stop.
+- **State:** Morning Bandit state retold: had to redo 0-10 (no password), speedran to 7, in-depth on 5-6-7 with `file`/`find`/`find /`/`find .` questions, hit the same password wall at L7 and stopped. Root cause: only L0-5 + L11/12 flags persisted — L5→6 and L6→7 passwords never saved. "we fixed something in the system" = kitty.conf (verified). `find`/`file` concepts were the real skill win.
+- **Next step:** superseded by the capture-integrity build above.
+
+- **Thread:** Morning session recovered as far as possible + lost-session guard added. Hospitation #1 confirmed done (from the auto title); Bandit morning progress lost.
+- **State:** Vault hunt showed the 10:30-12 session left only a title ("Hospitation completed, next Friday 9:15"). MEMORY tag: "model never logged an explicit thread". Everything else in that window never persisted. Cousin/vacuum re-captured tonight. AGENTS.md now has a lost-session check at startup. Correct name: **Luca** (not Lucas).
+- **Next step:** done — superseded by the Bandit-state recovery above.
+
+- **Thread:** Sync gap found + fixed — phone notes were landing on GitHub but never reaching the laptop until a sync ran. Startup now fetches+checks phone notes; surfaced two notes from today (cousin smoke plan, hash vs bash Q).
+- **State:** Notes pulled to local, AGENTS.md phone-notes check written, his cousin moment captured in His Moments. Root cause: phone writes straight to GitHub, local vault only catches up on sync — nothing looked at the remote at session start. Also flagged: he wrote "like i told you" re: the cousin meeting but the vault has no prior cousin entry — possible memory leak to check.
+- **Next step:** done — subsumed by the morning-session loss thread (same family, deeper).
+
+- **Thread:** Fixed the resume/startup etiquette leak — cold start = report + explain + wait, warm flow = just go.
+- **State:** Done and verified in files. `commands/resume.md` now waits for a go after reporting; `Resume Style Guide.md` rebuilt around the COLD vs WARM split; AGENTS.md `/resume` line + build-mode got the warm-flow exemption so nothing contradicts itself anymore. Fix was triggered by me executing Machine.md unannounced right after /resume this session — he had to correct me twice.
+- **Next step:** done — outlived by the phone-notes thread (deeper leak, same family).
+
+- **Thread:** Build `~/SecondBrain/Meta/Machine.md` — the machine memory file (durable facts + config map + fix log).
+- **State:** complete. Written + verified fresh 09-04 (i7-4600U Haswell, Intel iGPU, 7.6Gi RAM, 1366×768, fish, Europe/Berlin, CachyOS 7.2.2-1-cachyos, de keyboard). Design approved + delegated to me the night before; he said "finish tomorrow." Same night earlier: built the Evening Thread (mornings light + evenings own IRL/brain-fill) + `/save` command — both done, sync'd. IRL that day was Hospitation #1 09:15; dad-deadline already met.
+
+- **Thread:** Laptop battery lasting 1-2 hours
+- **State:** battery degraded (Haswell-era), no software fix — logged in Machine.md fix log.
+- **Next step:** done — archive.
 
 - **Thread:** Field #6 expanding into faith/upbringing roots — the Freie Evangelische Gemeinde double-life ("i lived a long double life there") + the GF-hiding thread ("ive had to lie to her a lot"). Long-horizon extraction.
 - **State:** He named both (09-04 night) and explicitly wants it researched **over time** — one hook at a time, never a questionnaire, he's "making hooks." Saved to His Moments + Growth Map (field #6, long-horizon). Paused overnight; resumed naturally in future evenings.
