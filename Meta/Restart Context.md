@@ -11,7 +11,7 @@ Why the plain "where we left off" isn't enough: when the user restarts opencode,
 
 ## Pending
 
-_(empty — last restart consumed 2026-09-05)_
+- 2026-09-05 03:00 → needs restart to load the brain-audit.ts `saveManifest` fix: it now starts from the disk copy and overlays only the ids *this instance changed* (dirty set) instead of rewriting whole memory state. That wholesale rewrite is the actual reason the build-session repair (`EMPTY->OK`) has failed TWICE — the running instance's stale copy clobbers hand edits on every busy tick. After restart: the already-committed manifest repair (`f92096b6 -> OK, resolved`) survives permanent. Until then the live instance may still flip it back in the working tree — cosmetic, flags stay clean.
 
 ---
 

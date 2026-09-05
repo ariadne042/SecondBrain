@@ -10,7 +10,7 @@ The single main thing (a task or a conversation) we were focused on when we last
 
 - **Thread:** Capture-integrity audit — first live check failed, logic fixed, needs restart to load.
 - **State:** Restart loaded the fix (sweep deferred to first event, live-id skipped, cumulative counters). Repairs re-applied 09-05 02:41 and are now consistent: build session `EMPTY->OK, resolved`; the 02:40 old-plugin window (end:null zombie, no verdict) finalized as `OK, resolved` so the new sweep won't flag it. The 02:39 1-min empty session left as genuine EMPTY (not flagged). flags.md cleaned of the stale SUSPECT. All committed: `928e58a` (`_system/` + Machine.md + Journal-09-04 + pending edits now git-backed).
-- **Next step:** Restart consumed the fix; repairs re-applied (above). Remaining: passively confirm the plugin's first sweep in this fresh session runs clean — heartbeat fresh, sweep skips the live session, no re-invented flags. Check flags.md at next pause.
+- **Next step:** Audit turned up a second plugin reason: `saveManifest` clobbered the manifest repair twice from stale memory — fixed in plugin (disk-start + dirty overlay), pending restart to load. Repair re-applied in the commit. After the next restart: confirm the repair sticks (build session stays OK/resolved across further saves) and the live check passes clean.
 
 ---
 
