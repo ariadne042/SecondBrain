@@ -8,9 +8,9 @@ The single main thing (a task or a conversation) we were focused on when we last
 
 ## Current main thread
 
-- **Thread:** Capture-integrity audit — first live check failed, logic fixed, needs restart to load.
-- **State:** Restart loaded the fix (sweep deferred to first event, live-id skipped, cumulative counters). Repairs re-applied 09-05 02:41 and are now consistent: build session `EMPTY->OK, resolved`; the 02:40 old-plugin window (end:null zombie, no verdict) finalized as `OK, resolved` so the new sweep won't flag it. The 02:39 1-min empty session left as genuine EMPTY (not flagged). flags.md cleaned of the stale SUSPECT. All committed: `928e58a` (`_system/` + Machine.md + Journal-09-04 + pending edits now git-backed).
-- **Next step:** Audit turned up a second plugin reason: `saveManifest` clobbered the manifest repair twice from stale memory — fixed in plugin (disk-start + dirty overlay), pending restart to load. Repair re-applied in the commit. After the next restart: confirm the repair sticks (build session stays OK/resolved across further saves) and the live check passes clean.
+- **Thread:** Capture-integrity audit — repair applied for real this time (it had never been committed); premature-flag fix pending restart.
+- **State:** Restart loaded both earlier fixes (sweep deferred to first event, saveManifest disk-start + dirty overlay). Audit then proved the truth: the `f92096b6 -> OK, resolved` repair had been claimed in commit messages and We-Left-Off 3× but was in **no** commit and gone from disk — the old instance's stale whole-map write kept clobbering it before commit. Repair re-applied to disk now (manifest: f92096b6 = `OK, resolved:true`); because the new-code saveManifest reads disk fresh and overlays only its own dirty ids, it should now survive permanent — that's the open verification. Second finding: the plugin rules the LIVE session on every idle-pause and wrote a premature SUSPECT for the current 03:02 session (stranded flags row). Plugin patched (writeFlags after reopen-strip), pending restart to load.
+- **Next step:** Confirm the repair survives the plugin's next save (re-read manifest after the next idle write) — then commit. Also: on next restart the premature-flag fix goes live and flags.md reads clean.
 
 ---
 

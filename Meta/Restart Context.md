@@ -11,11 +11,13 @@ Why the plain "where we left off" isn't enough: when the user restarts opencode,
 
 ## Pending
 
-- 2026-09-05 03:00 → needs restart to load the brain-audit.ts `saveManifest` fix: it now starts from the disk copy and overlays only the ids *this instance changed* (dirty set) instead of rewriting whole memory state. That wholesale rewrite is the actual reason the build-session repair (`EMPTY->OK`) has failed TWICE — the running instance's stale copy clobbers hand edits on every busy tick. After restart: the already-committed manifest repair (`f92096b6 -> OK, resolved`) survives permanent. Until then the live instance may still flip it back in the working tree — cosmetic, flags stay clean.
+- 2026-09-05 03:07 → needs restart to load the brain-audit.ts fix: reclaim premature pause-verdicts from flags.md. On every idle-pause the plugin rules the LIVE (still-open) session as a window — a real thread with moments not-yet-flushed read as a scary SUSPECT row in flags.md within the same minute. The reopen path (beginWindow when verdict exists) already stripped the verdict from the manifest, but flags.md kept the row until the next idle/bye. Now `writeFlags()` runs right after the reopen-strip, so the row retracts the moment the session resumes. Cosmetic — no content was ever lost; the 03:02 SUSPECT on the current session was exactly this.
 
 ---
 
 ## Log
+
+- 2026-09-05 (fresh open) → loaded: the brain-audit.ts `saveManifest` clobber fix — the plugin now starts from the disk copy and overlays only the ids *this instance changed* (dirty set) instead of rewriting whole memory state. That wholesale rewrite was why the build-session repair (`EMPTY->OK`) failed twice. After restart: the committed manifest repair (`f92096b6 -> OK, resolved`) should survive permanent and the live instance stop flipping it in the working tree. Remaining: confirm the repair sticks + live check passes clean.
 
 - 2026-09-05 (fresh open) → loaded: brain-audit.ts logic fix (sweep deferral + cumulative counters + EMPTY reopenable) now live. Remaining from this pending: re-apply/verify the manifest repair for the 09-04 build session (verdict EMPTY->OK, flags resolved) + confirm the live check passes clean.
 

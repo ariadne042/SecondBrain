@@ -1,46 +1,58 @@
 {
-  "sessions": {
-    "ses_f92096b6cffeAJPl1ltTRF21IU": {
-      "start": "2026-09-04 22:01",
-      "activityMsgs": 0,
-      "leftoff0": 1788551695308.4631,
-      "moments0": 1788552069950.045,
-      "title": "New session - 2026-09-04T19:47:51.571Z",
-      "end": "2026-09-05 02:16",
-      "leftoffTouched": false,
-      "momentsTouched": false,
-      "verdict": "EMPTY",
-      "verdictAt": "2026-09-05 02:16",
-      "flagged": false,
-      "resolved": false
-    },
-    "ses_f911370f9ffexCKywiM0aiTg7M": {
-      "start": "2026-09-05 02:39",
-      "activityMsgs": 0,
-      "leftoff0": 1788568270410.6316,
-      "moments0": 1788552069950.045,
-      "title": "New session - 2026-09-05T00:16:32.007Z",
-      "end": "2026-09-05 02:40",
-      "leftoffTouched": false,
-      "momentsTouched": false,
-      "verdict": "EMPTY",
-      "verdictAt": "2026-09-05 02:40",
-      "flagged": false,
-      "resolved": false
-    },
-    "ses_f90fd979bffedugkb2pZ0kWjpi": {
-      "start": "2026-09-05 02:40",
-      "activityMsgs": 109,
-      "leftoff0": 1788568270410.6316,
-      "moments0": 1788552069950.045,
-      "title": "New session - 2026-09-05T00:40:23.908Z",
-      "end": null,
-      "leftoffTouched": false,
-      "momentsTouched": false,
-      "verdict": null,
-      "verdictAt": null,
-      "flagged": false,
-      "resolved": false
-    }
+  "ses_f92096b6cffeAJPl1ltTRF21IU": {
+    "start": "2026-09-04 22:01",
+    "activityMsgs": 0,
+    "leftoff0": 1788551695308.4631,
+    "moments0": 1788552069950.045,
+    "title": "New session - 2026-09-04T19:47:51.571Z",
+    "end": "2026-09-05 02:16",
+    "leftoffTouched": false,
+    "momentsTouched": false,
+    "verdict": "EMPTY",
+    "verdictAt": "2026-09-05 02:16",
+    "flagged": false,
+    "resolved": false
+  },
+  "ses_f911370f9ffexCKywiM0aiTg7M": {
+    "start": "2026-09-05 02:39",
+    "activityMsgs": 0,
+    "leftoff0": 1788568270410.6316,
+    "moments0": 1788552069950.045,
+    "title": "New session - 2026-09-05T00:16:32.007Z",
+    "end": "2026-09-05 02:40",
+    "leftoffTouched": false,
+    "momentsTouched": false,
+    "verdict": "EMPTY",
+    "verdictAt": "2026-09-05 02:40",
+    "flagged": false,
+    "resolved": false
+  },
+  "ses_f90fd979bffedugkb2pZ0kWjpi": {
+    "start": "2026-09-05 02:40",
+    "activityMsgs": 115,
+    "leftoff0": 1788568270410.6316,
+    "moments0": 1788552069950.045,
+    "title": "New session - 2026-09-05T00:40:23.908Z",
+    "end": "2026-09-05 03:02",
+    "leftoffTouched": true,
+    "momentsTouched": true,
+    "verdict": "OK",
+    "verdictAt": "2026-09-05 03:02",
+    "flagged": false,
+    "resolved": false
+  },
+  "ses_f90e9af8affepzwe0BcV4OXAek": {
+    "start": "2026-09-05 03:02",
+    "activityMsgs": 41,
+    "leftoff0": 1788570023634.301,
+    "moments0": 1788570023630.0132,
+    "title": "New session - 2026-09-05T01:02:08.501Z",
+    "end": null,
+    "leftoffTouched": false,
+    "momentsTouched": false,
+    "verdict": null,
+    "verdictAt": null,
+    "flagged": false,
+    "resolved": false
   }
 }
