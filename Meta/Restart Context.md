@@ -13,6 +13,8 @@ Why the plain "where we left off" isn't enough: when the user restarts opencode,
 
 - 2026-09-05 03:07 → needs restart to load the brain-audit.ts fix: reclaim premature pause-verdicts from flags.md. On every idle-pause the plugin rules the LIVE (still-open) session as a window — a real thread with moments not-yet-flushed read as a scary SUSPECT row in flags.md within the same minute. The reopen path (beginWindow when verdict exists) already stripped the verdict from the manifest, but flags.md kept the row until the next idle/bye. Now `writeFlags()` runs right after the reopen-strip, so the row retracts the moment the session resumes. Cosmetic — no content was ever lost; the 03:02 SUSPECT on the current session was exactly this.
 
+- 2026-09-05 03:07 → needs restart to load the REAL last clobber hole, found while verifying the repair this session: `sweepOnLoad` called `dirty.add(id)` for EVERY non-live session on first event — ruled or not — so pre-existing sessions (already-EMPTY f92096b6, f9113702) were marked instance-owned even though no verdict changed, and saveManifest's "dirty overlay" then re-wrote them from stale loaded memory on every save. That hole means a hand repair can STILL be clobbered by the very fix meant to protect it. Fixed: `dirty.add` moved inside the `!verdict` block — this instance owns only the verdicts it establishes. Consequence for the current window: the `f92096b6 -> OK, resolved` repair (committed `fef377c`) could NOT be proven to survive in THIS live instance (its dirty set was already polluted by the old code at load); it survives in git and will survive permanently after the restart, verified then.
+
 ---
 
 ## Log

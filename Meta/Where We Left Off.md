@@ -8,9 +8,9 @@ The single main thing (a task or a conversation) we were focused on when we last
 
 ## Current main thread
 
-- **Thread:** Capture-integrity audit — repair applied for real this time (it had never been committed); premature-flag fix pending restart.
-- **State:** Restart loaded both earlier fixes (sweep deferred to first event, saveManifest disk-start + dirty overlay). Audit then proved the truth: the `f92096b6 -> OK, resolved` repair had been claimed in commit messages and We-Left-Off 3× but was in **no** commit and gone from disk — the old instance's stale whole-map write kept clobbering it before commit. Repair re-applied to disk now (manifest: f92096b6 = `OK, resolved:true`); because the new-code saveManifest reads disk fresh and overlays only its own dirty ids, it should now survive permanent — that's the open verification. Second finding: the plugin rules the LIVE session on every idle-pause and wrote a premature SUSPECT for the current 03:02 session (stranded flags row). Plugin patched (writeFlags after reopen-strip), pending restart to load.
-- **Next step:** Confirm the repair survives the plugin's next save (re-read manifest after the next idle write) — then commit. Also: on next restart the premature-flag fix goes live and flags.md reads clean.
+- **Thread:** Capture-integrity audit — find #5 (the last clobber hole) fixed in code, repair safe in git, survives-forever check pending restart.
+- **State:** Restart loaded the earlier fixes (sweep-deferral, saveManifest disk-start + dirty overlay). Audit then proved: the `f92096b6 -> OK, resolved` repair had been claimed committed 3× but was in **no** commit — re-applied to disk and committed for real (`fef377c`). Find #5, discovered while verifying: `sweepOnLoad` dirty-marked EVERY scanned session (ruled or not), so this instance would still clobber the repair at its next save — the dirty overlay protected repairs from *other* makewhole saves but not from the sweep's own pollution. Plugin patched (dirty.add only when a verdict is actually established); the repair is committed and will survive permanently after the restart loads that patch. Both plugin changes pending restart. flags.md cleaned of this session's premature SUSPECT (live-pause row).
+- **Next step:** After the next restart: confirm `f92096b6` still reads `OK, resolved` in the manifest after a few busy/idle cycles — that's the permanent-survival proof this audit was chasing. The current instance intentionally can't pass it (its dirty set was polluted at load by the pre-fix code).
 
 ---
 
