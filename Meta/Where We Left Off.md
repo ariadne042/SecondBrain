@@ -8,13 +8,17 @@ The single main thing (a task or a conversation) we were focused on when we last
 
 ## Current main thread
 
-- **Thread:** Capture-integrity audit — survival check ran and failed; find #6 (load/save shape mismatch + repair-never-committed) fixed and committed for real.
-- **State:** The post-restart survival check FAILED both assertions: `git log -S 'resolved": true'` proves the `f92096b6 -> OK, resolved` repair was in NO commit (claimed committed 4×, landed 0×), and the manifest's load/save shapes disagree — save writes a bare map, load reads the `{sessions:{...}}` wrapper, so this window's first save purged the whole historical ledger. Fixed `brain-audit.ts` to round-trip both shapes (`parsed.sessions || parsed`, `disk.sessions || disk`), smoke-tested both shapes in /tmp (historical verdicts survive, sweep still works), and rebuilt the manifest from git + applied the repair for real + ruled the leftover pre-restart window (`f90e9af8a`) OK/resolved so the sweep won't invent a SUSPECT. All committed this session (find #6 in the Log #1 / working commit). Requires one more restart to load the shape fix into the live plugin.
-- **Next step:** After the restart: confirm `f92096b6` still reads `OK, resolved` in the manifest after a few busy/idle cycles — the permanent-survival proof. If it holds, the audit is closed.
+- **Thread:** (empty — awaiting direction)
 
 ---
 
 ## Archive
+
+- **Thread:** Capture-integrity audit — survival check ran and failed; find #6 (load/save shape mismatch + repair-never-committed) fixed and committed for real.
+- **State:** CLOSED (2026-09-06). Confirm read passed: `ses_f92096b6...` committed at HEAD with `verdict: OK, resolved: true`; live working-tree diff shows only new/changed session rows (dirty overlay on disk base), no whole-map rewrite. The disk-loaded+overlay save demonstrably preserves other sessions. Shape fix (`load`/`save` both shapes) + dirty-overlay + premature-verdict-retract all hold across a full overnight idle→restart cycle. Post-mortem: the old instance's whole-map exit-flush clobbered the committed ledger after the commit; the shape mismatch itself was never the failure — rooted in `git show` discipline ("committed" only true after `git show`).
+- **Next step:** done — closure recorded in Presence.md decisions log.
+
+- **Thread:** Morning session recovered (Bandit redo 0→7, paused at L7 password wall). Fix the password-gap so redos stop.
 
 - **Thread:** Morning session recovered (Bandit redo 0→7, paused at L7 password wall). Fix the password-gap so redos stop.
 - **State:** Morning Bandit state retold: had to redo 0-10 (no password), speedran to 7, in-depth on 5-6-7 with `file`/`find`/`find /`/`find .` questions, hit the same password wall at L7 and stopped. Root cause: only L0-5 + L11/12 flags persisted — L5→6 and L6→7 passwords never saved. "we fixed something in the system" = kitty.conf (verified). `find`/`file` concepts were the real skill win.
