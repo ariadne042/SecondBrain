@@ -15,7 +15,7 @@ Later, when it's clearer, I can move things into [[Insights]] and link them. But
 
 ## 2026-09-01
 - i really like optimizing the system — not just the brain but working with you and seeing results. i can tell you've gotten to know me and understand me.
-- filling the brain is something i should do, but if i force it the thoughts aren't genuine. they come on their own.
+- filling the brain is something i should do, but if i force it the thoughts aren't genuine. they come on their own. → **PROMOTED 09-06** → [[Insights/Insight - Thoughts come on their own]] (corroborated live: the freeze/flow at the cousin day)
 - i want to keep optimizing and working with you. learning linux, coding, pentesting/hacking, cybersec. → candidate for promotion (how I fill the brain is a byproduct of doing real things; genuine thoughts can't be forced)
 - i feel like i see some similarity with elliot form the robot.
 - i've got a real sleep problem.

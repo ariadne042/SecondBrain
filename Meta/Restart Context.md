@@ -11,11 +11,13 @@ Why the plain "where we left off" isn't enough: when the user restarts opencode,
 
 ## Pending
 
-- 2026-09-05 03:35 → needs restart to load the find-#6 shape fix: brain-audit.ts load/save round-trip BOTH manifest shapes now (`load` = `parsed.sessions || parsed`, `save` = `disk.sessions || disk`). Before the fix, the survival check FAILED: saveManifest wrote a bare map while loadManifest read the `{sessions:{...}}` wrapper, so post-flatten restarts loaded `{}` and the first save purged the whole ledger (this window did exactly that — all historical verdicts vanished from the working manifest). The `f92096b6 -> OK, resolved` repair had also never been committed despite 4× claims (`git log -S 'resolved": true'` = nothing). Both restored + the repair applied for real in commit (see Log #1 of 09-05). After restart: `f92096b6` must read `OK/true` and survive idle cycles.
+_Empty — nothing pending._
 
 ---
 
 ## Log
+
+- 2026-09-05 (fresh open) → loaded: find-#6 shape fix — brain-audit.ts load/save round-trip BOTH manifest shapes now (`load` = `parsed.sessions || parsed`, `save` = `disk.sessions || disk`). Before the fix the survival check FAILED: save wrote a bare map, load read the `{sessions:{...}}` wrapper, so the post-flatten first save purged the whole ledger. The `f92096b6 -> OK, resolved` repair (once claimed 4× but never committed) was committed for real. Remaining: confirm `f92096b6` reads `OK/true` and survives idle cycles.
 
 - 2026-09-05 (fresh open) → loaded: brain-audit.ts `writeFlags()` reclaim fix — premature pause-verdicts now retract from flags.md the moment the session resumes. Cosmetic; no content ever lost.
 

@@ -8,11 +8,17 @@ The single main thing (a task or a conversation) we were focused on when we last
 
 ## Current main thread
 
-- **Thread:** (empty — awaiting direction)
+- **Thread:** Hands-on wifi/network pentesting learning session (his pick) — Fortbildung Monday, break-time learning.
+- **State:** Wifi attack toolkit covered (monitor mode, handshake capture — no clients on target so no handshake, WPS off, PMKID offered as next, brute-force unrealistic — complex password). Then live nmap recon on the course network: ping sweep → 11 hosts (phones + HP OfficeJet Pro 8710 printer), phone had 0 open ports, printer has 7 (web admin open on 80/443/631/8080, no password, serial CN66EET0RD, DHCP+DNS layout, Wifi Direct on). He ran everything himself and named the format: "tell me what to do and why, teach me" — HIS key learning preference, captured in His Moments + Growth Map field #8. He wants this more often.
+- **Next step:** Whatever he picks — interested in bettercap ARP-spoof demo or the defensive side (hardening). Docs: next Hospitation Fri 09-11 09:15; Fortbildung week Mon–Thu.
 
 ---
 
 ## Archive
+
+- **Thread:** Cousin-day + night-chat at her place (The Odyssey/Dune, first-smoke beat), then a systems conversation about how my memory actually works. Casual session — no project.
+- **State:** Capture-integrity audit CLOSED (committed 4fbc920). Cousin day told and captured in full. Freeze/flow insight promoted ("Thoughts come on their own"). Weekly review written. User went to sleep ~5am Sunday from his cousin's; course week starts **Mon 09-07**, next Hospitation **Fri 09-11 09:15**.
+- **Next step:** superseded by the wifi/nmap learning thread.
 
 - **Thread:** Capture-integrity audit — survival check ran and failed; find #6 (load/save shape mismatch + repair-never-committed) fixed and committed for real.
 - **State:** CLOSED (2026-09-06). Confirm read passed: `ses_f92096b6...` committed at HEAD with `verdict: OK, resolved: true`; live working-tree diff shows only new/changed session rows (dirty overlay on disk base), no whole-map rewrite. The disk-loaded+overlay save demonstrably preserves other sessions. Shape fix (`load`/`save` both shapes) + dirty-overlay + premature-verdict-retract all hold across a full overnight idle→restart cycle. Post-mortem: the old instance's whole-map exit-flush clobbered the committed ledger after the commit; the shape mismatch itself was never the failure — rooted in `git show` discipline ("committed" only true after `git show`).
