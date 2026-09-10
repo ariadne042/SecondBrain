@@ -267,9 +267,16 @@
   },
   "ses_f729579e2ffeGpdkJxdYQLBR5Y": {
     "start": "2026-09-11 00:22",
-    "activityMsgs": 14,
+    "activityMsgs": 67,
     "leftoff0": 1789060506418.7908,
     "moments0": 1789060347945.0056,
-    "title": "New session - 2026-09-10T22:22:43.741Z"
+    "title": "New session - 2026-09-10T22:22:43.741Z",
+    "end": null,
+    "leftoffTouched": false,
+    "momentsTouched": false,
+    "verdict": null,
+    "verdictAt": null,
+    "flagged": false,
+    "resolved": false
   }
 }

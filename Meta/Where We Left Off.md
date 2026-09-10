@@ -8,9 +8,9 @@ The single main thing (a task or a conversation) we were focused on when we last
 
 ## Current main thread
 
-- **Thread:** OnlyOffice for mom's Kündigung + his evening (Aaron's/Luca, then gf call)
-- **State:** onlyoffice-bin + ttf-ms-fonts installed, he was happy with it. SMB relay lesson deferred (no target endpoint on one box). Then the convo turned to his gf: excited for tonight's call, chose NOT to buy a new one so tonight doesn't become an all-nighter — protecting the gf call. Beard story told (her shutdown, his absorption). His Moments captured both.
-- **Next step:** Tonight: gf call (she may initiate). Tomorrow: **Fri 09-11 09:15 = Hospitation** (final) → reports + email. When he's up for it: relay lesson wants a real target box / VM for next time.
+- **Thread:** Voice notes — first real payload delivered and processed (09-11 ~00:36)
+- **State:** Pipeline proved end-to-end: he pasted Gemini transcripts into Inbox/Voice Notes.md via the GitHub app, I pulled. Two audio notes (titles = street names, ignore): the rave/girlfriend/friends triangle, the forget-connections brief ("system should hold the connections I make and feed them back"), the English-accent note, and the identity goal ("I want to say: I know exactly what happened to me and why I am like this"). All captured into His Moments + Growth Map (fields 4, 7, current line). Loop now: phone → GitHub → brain → surface in conversation.
+- **Next step:** Surface the material back at natural moments (the identity goal is now the master thread). Keep voice-note channel open — it runs itself now. Calendar: tonight gf call (she may initiate); **Fri 09-11 09:15 Hospitation** (final) → reports + email; relay lesson wants a real target box / VM. His explicit ask from A1: when we talk, give him back the connections he made and forgot.
 
 ---
 
