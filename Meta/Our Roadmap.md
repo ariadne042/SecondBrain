@@ -54,6 +54,7 @@ Ariadne is the system. The assistant, the vault, and the journey are all one —
 - [ ] Fix Super+A hiding other windows
 - [ ] Make opencode (Ariadne) comfortable / maximize its potential
 - [ ] Thinking/connecting time — a standing block to actually think and connect across the vault, not just file and maintain
+- [ ] Mic keybind — turn keybind into direct voice capture into `~/brain-inbox/voice/` (record → transcribe pipeline, no manual file dropping). (09-10)
 
 ---
 
