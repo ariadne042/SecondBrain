@@ -11,11 +11,13 @@ Why the plain "where we left off" isn't enough: when the user restarts opencode,
 
 ## Pending
 
-_Empty — nothing pending._
+- 2026-09-17 ~20:2x → new **GM agent** `~/.config/opencode/agent/gm.md` written (primary agent, full grid+SecondBrain perms, GM persona — the "GM mode"). Needs an opencode restart to load. After restart: Tab → GM, run the game from `/home/user/grid`, `./grid.sh`.
 
 ---
 
 ## Log
+
+- 2026-09-17 19:55 (fresh open) → loaded: session was killed by a **compaction error** (user-reported; same free-tier compaction/title-gen gate that already hit the build session 17:26–17:30). The two `09-17T17:32` GAP sessions in flags.md are its victims — 3 msgs each, thread:no + moments:no, content lost. Grid mail design A itself landed in MEMORY (09-17), so the build survived.
 
 - 2026-09-05 (fresh open) → loaded: find-#6 shape fix — brain-audit.ts load/save round-trip BOTH manifest shapes now (`load` = `parsed.sessions || parsed`, `save` = `disk.sessions || disk`). Before the fix the survival check FAILED: save wrote a bare map, load read the `{sessions:{...}}` wrapper, so the post-flatten first save purged the whole ledger. The `f92096b6 -> OK, resolved` repair (once claimed 4× but never committed) was committed for real. Remaining: confirm `f92096b6` reads `OK/true` and survives idle cycles.
 

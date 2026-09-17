@@ -37,6 +37,12 @@ Goal: finish Reha-Fortbildung → get certificate → run Reha-Kurse in dad's gy
 
 Raw dated lines, one per day. The accumulator — this is what "building the future" looks like at ground level.
 
+### 2026-09-11 (Fri) — evening account
+- **Missed the final Hospitation (09:15).** 3 alarms ~8am unheard/turned-off-half-asleep, mom tried, kept sleeping to 14:00. Lever was the 2:30am bedtime (2.5h gf call), not the alarm — the 09-03 chain repeated exactly. Reschedule requested by phone; **must email the gym (pending).**
+- Mom's verdict: "unreliable" + disappointed tone. His read on her reaction landing badly stands (shame feeds the monitor).
+- **Repair loop done unprompted:** called mom, called the gym, then vacuumed (the "before 16:00" one), folded clothes, cleaned the kitchen.
+- Habits: up-by-10:15 missed (14:00). Sleep: ~2:30am → 14:00.
+
 ### 2026-09-04 (Fri)
 - Worked a shift 15–22 the night before (that's Thu 09-03's day), felt pretty good at work despite a tired morning. Did **Bandit L0–L10 twice**, twice, in spare time at work.
 - **Told dad about the first Hospitation** (Thu 09-03 evening) — dad deadline MET (status presented).
