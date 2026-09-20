@@ -6,12 +6,13 @@ The single main thing (a task or a conversation) we were focused on when we last
 
 ## Current main thread
 
-- **Thread:** Crash-recovery system built (his "remember after crash/reboot" request) — then back to Factorio/Steam setup
-- **State:** `crash-recover.mjs` detects a crash-cut session via journal boot-end + reconstructs it from opencode.db → digest in `_system/crash-recovery/`; AGENTS.md startup hook added (loads next opencode restart). Live-tested against the 05:04 Factorio session; the important details were recovered and folded (pirate-Factorio-now → buy-on-Steam plan; Steam extraction unfinished at crash; SteamRIP links dead).
-- **Next step:** (1) opencode restart to load the AGENTS.md hook (already pending), (2) fix `/etc/systemd/logind.conf.d/lid.conf` — write real content + apply via reboot, NOT a live logind restart, (3) re-run Steam to finish first-run extraction, (4) get Factorio: hunt a live SteamRIP mirror or take the official demo (saves convert to paid).
+- **Thread:** The Versicherung layer (build is complete) — opencode restart then Factorio/Steam
+- **State:** Three insurance layers now live and tested: (1) **crash-recover.mjs** reconstructions cut sessions from opencode.db, (2) **session-digest.mjs** (`--list`/`--digest --limit 4`/`--grep <term>`) rescues sessions live-capture missed + `--grep` recalls any past detail, `/digest` command folds them interrupt-safe with visible progress, and (3) **db-backup.sh** snapshots the raw archive weekly to private GitHub `ariadne042/opencode-db-archive` (monthly fresh reset) — first snapshot pushed today. 58 past sessions still sit undigested (folded via `/digest`/evenings, newest-first, rescue-priority).
+- **Next step:** **restart opencode** (all three AGENTS hooks + `/digest` + `/save` step ride one restart — Pending in Restart Context). After: lid.conf real content + reboot (NOT live logind restart), then re-run Steam to finish Factorio first-run extraction, then a Factorio mirror/demo.
 
 ---
 
 ## Archive
 
-- **Thread:** Laptop crash investigation (2026-09-20) — resolved: hard power-cut, "fork systemctl" = uwsm line stuck by logind restart under load; clean reboot 05:37:18.
+- **Thread:** Laptop crash investigation (2026-09-20) — resolved: hard power-cut, "fork systemctl" = uwsm line stuck by logind restart under load; clean reboot 05:37:18. Crash-recovery built from it.
+- **Thread:** Crash-recovery system built (his "remember after crash/reboot" request), 2026-09-20 — superseded by the full Versicherung build.
