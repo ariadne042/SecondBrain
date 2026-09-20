@@ -41,6 +41,9 @@ Ariadne is the system. The assistant, the vault, and the journey are all one —
 ---
 
 ## Todos
+- [ ] Grid — misconfiguration intrusion slice (v1, approved 09-18): real permission enforcement; real tools `sudo -l`, `find -perm`, `hydra`, `john`; seed 1–2 misconfigs per host in `netgen.py`; vectors = weak SSH, SUID, `sudo` NOPASSWD, world-readable `/etc/shadow`. `john` = pure-Python `$6$` SHA-512-crypt (no `crypt` in Python 3.14).
+- [ ] Grid — make `wget` over HTTP download the real file content (it still writes a placeholder)
+- [ ] Brain — fix `ariadne-autosave.ts` duplicate MEMORY entries (skip save when the Where-We-Left-Off thread is unchanged; found 09-18)
 - [ ] Second Brain alive (priority 1)
 - [x] Waybar: wifi + battery modules, fix logout icon
 - [ ] Waybar: fix kalendar
@@ -61,6 +64,10 @@ Ariadne is the system. The assistant, the vault, and the journey are all one —
 ## Todos Archive
 
 Finished todos move here (most recent first) once their box is checked, so the active list stays tight and nothing is lost.
+
+### 2026-09-18
+- [x] Grid — fix the notes app save UX ("note taking and saving is a little weird"). REWROTE the Notes app: dirty tracking (honest "unsaved / saved hh:mm:ss"), saves queued so a file-switch can't race a pending save (the disappearing-tail bug), auto-save-before-switch, Ctrl+S works. Mail/notes Ack: done in the 2026-09-18 session.
+- [x] Grid — terminal text selection (drag-select output, Ctrl+C copies). Fixed user-select:none (term-out selectable) + skipped refocus-after-selection on mouseup, so Chromium doesn't drop the selection. He confirmed it works.
 
 ### 2026-09-03
 - [x] **Fix waybar logout** — three layers of problems, one at a time. (1) **Blank icons**: buttons were invisible because the wlogout surface was oversized (3522px on a 1366px screen) from `-L/R 1700` margins tuned for a bigger monitor — buttons settled off-screen. Fixed margins to fit (waybar config, keybinds.lua, style comment). (2) **Tried Nerd Font glyphs** — they worked but the glyphs sit low (Nerd Font em-box whitespace) and asymmetric padding to compensate stretched buttons into oval "tic-tacs." (3) **Final: reverted to the author's PNG-icon design** (icons already in `~/.config/wlogout/icons/`, paths correct) — PNGs center perfectly in square circular buttons, dead-center verified in-canvas. Buttons now true circles (100×100, r50), centered on screen with `-b 3 -c20 -r20 -L513 -R513 -T334 -B334`. Hover glow only on real hover (removed permanent focus highlight). Issue resolved end-to-end.

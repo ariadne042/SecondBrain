@@ -11,11 +11,11 @@ Why the plain "where we left off" isn't enough: when the user restarts opencode,
 
 ## Pending
 
-- 2026-09-17 ~20:2x → new **GM agent** `~/.config/opencode/agent/gm.md` written (primary agent, full grid+SecondBrain perms, GM persona — the "GM mode"). Needs an opencode restart to load. After restart: Tab → GM, run the game from `/home/user/grid`, `./grid.sh`.
-
----
+_None._
 
 ## Log
+
+- 2026-09-17 ~20:2x → loaded (this fresh session): new **GM agent** `~/.config/opencode/agent/gm.md` written (primary agent, full grid+SecondBrain perms, GM persona). Restart consumed on 2026-09-17; next: Tab → GM, run from `/home/user/grid`, `./grid.sh`.
 
 - 2026-09-17 19:55 (fresh open) → loaded: session was killed by a **compaction error** (user-reported; same free-tier compaction/title-gen gate that already hit the build session 17:26–17:30). The two `09-17T17:32` GAP sessions in flags.md are its victims — 3 msgs each, thread:no + moments:no, content lost. Grid mail design A itself landed in MEMORY (09-17), so the build survived.
 
@@ -42,4 +42,4 @@ Why the plain "where we left off" isn't enough: when the user restarts opencode,
 - 2026-09-03 01:34 → loaded: AGENTS.md daily check-in re-anchored to the waking day (~10am) instead of midnight rollover; late-night pre-sleep sessions now open light, never a full rich check-in.
 
 - 2026-09-02 03:20 → loaded: plugin dedup fix + AGENTS.md behavior additions (growth loop, logic audits, restart-context rule). Consumed this session.
-- 2026-09-02 02:35 → loaded: engine rewrite (memory-first + growth loop). Restart confirmed by the session that opened after it.
+- 2026-09-02 02:35 → loaded: engine rewrite (memory-first + growth loop). Restart confirmed by the session that opened after it.- 2026-09-20 ~05:55 — AGENTS.md gained the Crash-recovery check startup hook (crash-recover.mjs). Needs opencode restart to load for the next session-start read.
