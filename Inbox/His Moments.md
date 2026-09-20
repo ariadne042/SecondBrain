@@ -406,3 +406,4 @@ The user's own material, held for him. He struggles to start thinking/opening up
 ## 2026-09-18 — mid-game UX feedback
 - Wants contract spawns to happen LIVE in-game, refuses restarts per contract — led to the save.json hot-reload design.
 - Dislikes browser-extension chrome leaking into the sandbox (right-click translate/Bitwarden popups); wants notes to behave like real files (delete included). Immersion is the product.
+- 2026-09-20 ~06:2x — heading to sleep right after finishing the Versicherung build; "its so late" — auto-captured: sunrise sleep again (5th+ late night this stretch; recurring signal on the sleep field).
