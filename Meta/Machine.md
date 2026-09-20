@@ -68,7 +68,8 @@ Solved gotchas — if the same thing breaks again, check here first.
 
 | Issue | Fix |
 |---|---|
-| wlogout not rendering icons | wlogout needs `wlogout-icons` or manually placed SVGs in `~/.config/wlogout/`; themed with Cachy palette. |
+| wlogout not rendering icons | Fixed 09-03 (was "blank buttons"): (1) the dotfiles (`43PR/dotfiles`) hardcoded icon paths to `/home/rp34/...` — replaced with crisp white-transparent PNGs generated from Nerd Font glyphs via ImageMagick (65535/40{,40,50} paths); (2) the `-L/R 1700 -T/B 325` margins were tuned for a huge monitor → wlogout surface was 3522×1020 on 1366×768 (buttons off-screen) — fixed margins to 1366×768 size; (3) layout = 3 buttons (shutdown ``/reboot ``/logout ``), PNG icons center perfectly (glyph text reads offset-low due to Nerd Font em-box whitespace). Command lives in keybinds.lua (SUPER+`/code:49) and waybar power module. |
+| Super+` logout keybind (de layout) | On German QWERTZ the top-left key types `^`, not `` ` `` — symbolic `GRAVE` never fires. Bound by **keycode 49** (`hl.bind("SUPER, code:49")`) so the physical key works regardless of symbol. |
 | `hl.dsp.*` sway errors | Harmless — leftover Intel audio pulse module entries in sway config; can be ignored. |
 | de keybind conflicts | German keyboard layout causes some sway bindsym keysyms to shift; explicit xkbmap de set in sway config. |
 | Permission matcher (autosave) | `ariadne-autosave.ts` plugin needed explicit file-write permission; added to opencode permission rules. |
