@@ -11,7 +11,8 @@ Why the plain "where we left off" isn't enough: when the user restarts opencode,
 
 ## Pending
 
-_None._
+- 2026-09-20 ~05:55 -> AGENTS.md gained the **Crash-recovery check** startup hook (`crash-recover.mjs`) — recovers sessions cut by a crash/reboot. Needs opencode restart to load.
+- 2026-09-20 ~06:00 -> **Digest layer (Versicherung)** built: `session-digest.mjs` (`--list` / `--digest --limit 4` / `--grep <term>`), new `/digest` command (`~/.config/opencode/commands/digest.md`, interrupt-safe + streaming progress), and AGENTS.md gained the Digest-sweep + Conversation-archive startup bullets. All load on the one restart.
 
 ## Log
 
@@ -42,4 +43,4 @@ _None._
 - 2026-09-03 01:34 → loaded: AGENTS.md daily check-in re-anchored to the waking day (~10am) instead of midnight rollover; late-night pre-sleep sessions now open light, never a full rich check-in.
 
 - 2026-09-02 03:20 → loaded: plugin dedup fix + AGENTS.md behavior additions (growth loop, logic audits, restart-context rule). Consumed this session.
-- 2026-09-02 02:35 → loaded: engine rewrite (memory-first + growth loop). Restart confirmed by the session that opened after it.- 2026-09-20 ~05:55 — AGENTS.md gained the Crash-recovery check startup hook (crash-recover.mjs). Needs opencode restart to load for the next session-start read.
+- 2026-09-02 02:35 → loaded: engine rewrite (memory-first + growth loop). Restart confirmed by the session that opened after it.
