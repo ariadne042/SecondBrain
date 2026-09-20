@@ -11,7 +11,7 @@ Why the plain "where we left off" isn't enough: when the user restarts opencode,
 
 ## Pending
 
-- 2026-09-20 ~07:3x → **digest thinking-mode build**: `commands/digest.md` rewritten (two-pass: Fold + Think), `session-digest.mjs` gained `--think [--limit N]` + `--raw <session-id>` (full digests into `_system/digest-think/raw/`), AGENTS.md Digest-sweep + `/digest` entries updated, workspace.md created. Loads on next session start — no hard restart needed, but the pending reason is recorded for completeness. NOTE: **tui.json keybinds changed** (`tool_details` → `<leader>d`, `session_toggle_generic_tool_output` → `<leader>o`) — needs an opencode restart to load the keybinds.
+- 2026-09-20 ~07:3x → **digest thinking-mode build**: `commands/digest.md` rewritten (two-pass: Fold + Think), `session-digest.mjs` gained `--think [--limit N]` + `--raw <session-id>` (full digests into `_system/digest-think/raw/`), AGENTS.md Digest-sweep + `/digest` entries updated, workspace.md created. Loads on next session start — no hard restart needed, but the pending reason is recorded for completeness. Note: **tui.json keybinds changed** (`tool_details` → `<leader>d`, `session_toggle_generic_tool_output` → `<leader>o`) — this restart (now, ~07:4x) is to load them and test `/digest`. After the test, next up: **planning conversation — the future of the brain and of Ariadne (his explicit ask 09-20 morning).**
 
 ## Log
 
