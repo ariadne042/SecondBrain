@@ -6,9 +6,8 @@ The single main thing (a task or a conversation) we were focused on when we last
 
 ## Current main thread
 
-- **Thread:** Restart forensics — "something was broken" in the 08:46 wlogout session, he restarted me 09:31
-- **State:** Diagnosed. Root cause: transcript pollution in the raw db (literal tool-call tags + `▣ Build` footer cards + duplicated tails stored INSIDE message parts after `-- done`), plus one `AI_APICallError: Internal server error` in that window. Not a model logic crash — a stream/store issue; restart was right, this session reads clean. Rule for every turn: `-- done` = last text, literally; anything after = flag + check db, never argue "just display" without checking stored parts.
-- **Also landed/verified:** wlogout one-row fix committed (`-b 4 -c 20 -r 20 -L 443 -R 443`, `#suspend` rule, crescent moon icon, compact centered NOT edge-to-edge). Stable state confirmed on disk.
+- **Thread:** Digest run spec: Fold + Think passes
+- **State:** auto-captured from the session title — the model never logged an explicit thread this session.
 - **Next step:** lift the `-- done` rule into AGENTS.md (Done-signal section) so every future session auto-enforces it — the one structural fix this anomaly exposed. Then return to the standing agenda: test `/digest` (staged raws waiting: crash session + Factorio session), then the future-of-the-brain-and-Ariadne planning talk + the owed "Ariadne's Hosting/Roadmap" doc. IRL still: Steam first-run extraction, Factorio (buy-when-able).
 
 ---

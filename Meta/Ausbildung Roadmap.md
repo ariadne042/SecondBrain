@@ -126,3 +126,27 @@ Vielen Dank und freundliche Grüße
 **Working method (decided 09-15): CO-WRITE, never ghostwrite.** He is the author, Ariadne is the editor. He writes the raw draft in his own voice (typos fine); Ariadne tightens structure/grammar but keeps his voice — if a sentence wouldn't sound like him, revert. He reads it aloud; anything he wouldn't say gets rewritten. Then run through a free AI-detector together and de-flag hot phrases. The letter doubles as interview rehearsal (the gap-story will be asked).
 
 The one application that settles the year. Story: FOR → Fachabi-Assistent gestartet (Wirtschaftsinformatik 1er) → pure IT erkannt → hands-on (Linux, Netzwerke, IT-Sicherheit) → BRD weil IT-Sicherheit + stabile Landesbehörde. Der "gap": Abgangszeugnis-Note ein Satz Klarheit (2. Halbjahr Abwesenheit), niemals verteidigen.
+
+#### Anschreiben thinking-aid (prepared 2026-09-20, co-write material — NOT a finished letter; he writes, I edit)
+
+**How a Landesbehörde reader actually sees this:** they process dozens; the letters that stick name the *Stellenanforderung* back (FI-SI = Systeme installieren/betreiben/Netzwerke/sicherheitskonform) and prove the fit with the best concrete evidence the applicant has — not a resume dump. One human hook. Then it's a clean close.
+
+**Proposed structure (he writes each part in his words; I tighten):**
+1. **Opening:** was er will + warum BRD. "Um einen Ausbildungsplatz zum Fachinformatiker für Systemintegration bewerbe ich mich..." — plus the one specific why (IT-Sicherheit als Teil der Stelle + stabile Landesbehörde).
+2. **Beleg:** Wirtschaftsinformatik fast durchgehend 1er → Affinität für system-admin-Logik (Netzwerke, Zusammenhänge, Troubleshooting). Ehrlich: er hat keinen formalen Zertifikaten — nicht erfinden, nicht überverkaufen.
+3. **Hands-on:** eigenständige Beschäftigung mit Linux-Systemadministration, Netzwerktechnik und IT-Sicherheit (eigener Rechner/Setup). Konkret bleiben, aber nur was er wirklich gemacht hat (Grid-game skills = reale Linux-Praxis, darf er zählen — das war echtes Shell/Linux-Arbeiten).
+4. **Warum sicher hier:** Verlässlichkeit/Einsatzbereitschaft (Reha-Sport-Übungsleiter-Engagement als Beleg für "zieht Sachen durch" — der alte Thread hat hier seinen Wert).
+5. **Schluss:** bereit für Einstellungstest + ärztliche Untersuchung; "über die weiteren Schritte freue ich mich."
+
+**Gap handling — options (his choice, one sentence max, never defend):**
+- Option A (minimal): gar nicht erwähnen, wenn er FOR als obersten Abschluss listet und die Daten ohnehin sichtbar sind → Lücke wird von den Daten erklärt.
+- Option B (ein Satz): "Nach den Winterferien habe ich das Fachabi verlassen, da mir durch die Wirtschaftsinformatik-Grundlagen klar wurde, dass ich in die reine IT möchte."
+- Empfehlung: A für das Anschreiben, B als vorbereitete Antwort fürs Vorstellungsgespräch. Das Zeugnis nicht als erste Seite zeigen; FOR zuerst.
+
+**Interview-Rehearsal-Fragen (double as the letter's rehearsal, per 09-15):**
+- "Warum haben Sie das Fachabi abgebrochen?" → ein Satz Klarheit (Option B), dann sofort zum Ziel.
+- "Was können Sie konkret mit Linux/Netzwerken?" → echte Taten nennen (was er im Grid/Maschinen-Raum wirklich gemacht hat), keine Vokabeln.
+- "Warum BRD statt eines IT-Systemhauses?" → Sicherheit + Stabilität + IT-Sicherheit-Aufgabenprofil — das ist Grund genug.
+- "Wie gehen Sie mit Aufgaben um, bei denen Sie nicht weiterwissen?" → eigenständig nachschlagen (man-page-Suchtier — das ist ein echtes Beleg), dann fragen.
+
+**One-sitting plan (der Karriere-Thread hakt seit 09-15; alle drei sind zusammen <40 min):** AfA-E-Mail senden + IHK-Anruf (Piron/Komatowsky) + Anschreiben-Rohfassung schreiben — als EIN Block an einem Tag, nicht drei separate To-dos, die immer verschoben werden. Der große Lehrtag-Stil (09-07): gebündelt in einem Sitzen erledigen.

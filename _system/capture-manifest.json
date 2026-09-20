@@ -137,7 +137,8 @@
     "verdict": "SUSPECT",
     "verdictAt": "2026-09-07 18:01",
     "flagged": false,
-    "resolved": false
+    "resolved": true,
+    "resolvedBy": "digest-fold-restore 09-20 (content verified in MEMORY/His Moments/fold-layer)"
   },
   "ses_f8365a535ffeGTTDAuu4KGBXuY": {
     "start": "2026-09-07 18:01",
@@ -151,7 +152,8 @@
     "verdict": "SUSPECT",
     "verdictAt": "2026-09-07 18:03",
     "flagged": false,
-    "resolved": false
+    "resolved": true,
+    "resolvedBy": "digest-fold-restore 09-20 (content verified in MEMORY/His Moments/fold-layer)"
   },
   "ses_f8335369bffeCDX85GFTXTB855": {
     "start": "2026-09-07 18:54",
@@ -165,7 +167,8 @@
     "verdict": "SUSPECT",
     "verdictAt": "2026-09-07 22:27",
     "flagged": false,
-    "resolved": false
+    "resolved": true,
+    "resolvedBy": "digest-fold-restore 09-20 (content verified in MEMORY/His Moments/fold-layer)"
   },
   "ses_f82722f8bffe0RU47bvfslhsxE": {
     "start": "2026-09-07 22:27",
@@ -179,7 +182,8 @@
     "verdict": "SUSPECT",
     "verdictAt": "2026-09-08 09:17",
     "flagged": false,
-    "resolved": false
+    "resolved": true,
+    "resolvedBy": "digest-fold-restore 09-20 (content verified in MEMORY/His Moments/fold-layer)"
   },
   "ses_f801ec9c3ffeCPGTcIsKbCmr1X": {
     "start": "2026-09-08 09:17",
@@ -305,7 +309,8 @@
     "verdict": "SUSPECT",
     "verdictAt": "2026-09-13 22:30",
     "flagged": false,
-    "resolved": false
+    "resolved": true,
+    "resolvedBy": "digest-fold-restore 09-20 (content verified in MEMORY/His Moments/fold-layer)"
   },
   "ses_f6388b52affe2G8ZEL5RjaJSdp": {
     "start": "2026-09-13 22:30",
@@ -443,7 +448,8 @@
     "verdict": "SUSPECT",
     "verdictAt": "2026-09-17 20:28",
     "flagged": false,
-    "resolved": false
+    "resolved": true,
+    "resolvedBy": "digest-fold-restore 09-20 (content verified in MEMORY/His Moments/fold-layer)"
   },
   "ses_f4f5fdb9effejZzzsWL4YgFsiD": {
     "start": "2026-09-17 20:28",
@@ -499,7 +505,8 @@
     "verdict": "SUSPECT",
     "verdictAt": "2026-09-20 05:38",
     "flagged": false,
-    "resolved": false
+    "resolved": true,
+    "resolvedBy": "digest-fold-restore 09-20 (content verified in MEMORY/His Moments/fold-layer)"
   },
   "ses_f431aeb7dffebwpkNrriPBOSLN": {
     "start": "2026-09-20 05:38",
@@ -541,7 +548,8 @@
     "verdict": "SUSPECT",
     "verdictAt": "2026-09-20 09:31",
     "flagged": false,
-    "resolved": false
+    "resolved": true,
+    "resolvedBy": "digest-fold-restore 09-20 (content verified in MEMORY/His Moments/fold-layer)"
   },
   "ses_f4245a511ffeTtlbho5CWl1sne": {
     "start": "2026-09-20 09:31",
@@ -559,9 +567,16 @@
   },
   "ses_f41014559ffeyceQB01nrsVF2X": {
     "start": "2026-09-20 15:26",
-    "activityMsgs": 464,
+    "activityMsgs": 543,
     "leftoff0": 1789889937151.588,
     "moments0": 1789892101592.561,
-    "title": "New session - 2026-09-20T13:26:00.102Z"
+    "title": "New session - 2026-09-20T13:26:00.102Z",
+    "end": null,
+    "leftoffTouched": false,
+    "momentsTouched": false,
+    "verdict": null,
+    "verdictAt": null,
+    "flagged": false,
+    "resolved": false
   }
 }
