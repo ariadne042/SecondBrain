@@ -11,9 +11,13 @@ Why the plain "where we left off" isn't enough: when the user restarts opencode,
 
 ## Pending
 
-- 2026-09-20 ~07:3x → **digest thinking-mode build**: `commands/digest.md` rewritten (two-pass: Fold + Think), `session-digest.mjs` gained `--think [--limit N]` + `--raw <session-id>` (full digests into `_system/digest-think/raw/`), AGENTS.md Digest-sweep + `/digest` entries updated, workspace.md created. Loads on next session start — no hard restart needed, but the pending reason is recorded for completeness. Note: **tui.json keybinds changed** (`tool_details` → `<leader>d`, `session_toggle_generic_tool_output` → `<leader>o`) — this restart (now, ~07:4x) is to load them and test `/digest`. After the test, next up: **planning conversation — the future of the brain and of Ariadne (his explicit ask 09-20 morning).**
+(none — clean slate)
 
 ## Log
+
+- 2026-09-20 09:31 → loaded: **the broken-session restart** (user-forced). The 08:46 "Super: one-row buttons" session was misbehaving — junk after `-- done` (literal `</invoke> </tool_calls>` tags + `▣ Build` footer cards + duplicated tails inside stored message parts), an AI_APICallError at 06:02Z, a 189MB db. Restart was the right call; this session reads clean. Root cause + rule folded into MEMORY 09-20. Also consumed the earlier 07:3x digest-build pending: keybinds (`<leader>d`/`<leader>o`) loaded, `/digest` ready to test, staged raws waiting.
+
+- 2026-09-20 (morning open) → loaded, all three consumed by today's fresh start: **Crash-recovery check** hook (crash-recover.mjs), **Digest layer** (session-digest.mjs --list/--digest/--grep + /digest command + Digest-sweep & Conversation-archive startup bullets), **Raw-db archive** (db-backup.sh → opencode-db-archive). NOTE: the backup repo was created and the first snapshot pushed the same night (06:14, post-crash, while the user was still up) — the pending "user action" note is resolved; db-backup.sh runs from /save now. Crash-recovery also fired on today's open (the 05:38–06:16 session was cut by the power loss at 06:16:21); its content self-logged into MEMORY live, marker touched.
 
 - 2026-09-20 (morning open) → loaded, all three consumed by today's fresh start: **Crash-recovery check** hook (crash-recover.mjs), **Digest layer** (session-digest.mjs --list/--digest/--grep + /digest command + Digest-sweep & Conversation-archive startup bullets), **Raw-db archive** (db-backup.sh → opencode-db-archive). NOTE: the backup repo was created and the first snapshot pushed the same night (06:14, post-crash, while the user was still up) — the pending "user action" note is resolved; db-backup.sh runs from /save now. Crash-recovery also fired on today's open (the 05:38–06:16 session was cut by the power loss at 06:16:21); its content self-logged into MEMORY live, marker touched.
 

@@ -517,16 +517,51 @@
   },
   "ses_f42d07108ffeze12jHzNSVNjut": {
     "start": "2026-09-20 07:00",
-    "activityMsgs": 190,
+    "activityMsgs": 241,
     "leftoff0": 1789877672730.0977,
     "moments0": 1789877760744.575,
     "title": "New session - 2026-09-20T05:00:05.751Z",
-    "end": null,
-    "leftoffTouched": false,
-    "momentsTouched": false,
-    "verdict": null,
-    "verdictAt": null,
+    "end": "2026-09-20 08:46",
+    "leftoffTouched": true,
+    "momentsTouched": true,
+    "verdict": "OK",
+    "verdictAt": "2026-09-20 08:46",
     "flagged": false,
     "resolved": false
+  },
+  "ses_f426e9a0cffeT0K5VOfZf9Hzmc": {
+    "start": "2026-09-20 08:46",
+    "activityMsgs": 144,
+    "leftoff0": 1789886686467.9016,
+    "moments0": 1789886091463.8086,
+    "title": "New session - 2026-09-20T06:46:57.779Z",
+    "end": "2026-09-20 09:31",
+    "leftoffTouched": true,
+    "momentsTouched": false,
+    "verdict": "SUSPECT",
+    "verdictAt": "2026-09-20 09:31",
+    "flagged": false,
+    "resolved": false
+  },
+  "ses_f4245a511ffeTtlbho5CWl1sne": {
+    "start": "2026-09-20 09:31",
+    "activityMsgs": 465,
+    "leftoff0": 1789886975011.1555,
+    "moments0": 1789886091463.8086,
+    "title": "New session - 2026-09-20T07:31:41.934Z",
+    "end": "2026-09-20 15:26",
+    "leftoffTouched": true,
+    "momentsTouched": true,
+    "verdict": "OK",
+    "verdictAt": "2026-09-20 15:26",
+    "flagged": false,
+    "resolved": false
+  },
+  "ses_f41014559ffeyceQB01nrsVF2X": {
+    "start": "2026-09-20 15:26",
+    "activityMsgs": 220,
+    "leftoff0": 1789889937151.588,
+    "moments0": 1789892101592.561,
+    "title": "New session - 2026-09-20T13:26:00.102Z"
   }
 }

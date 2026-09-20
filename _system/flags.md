@@ -1,6 +1,6 @@
 # Brain audit flags — read at every startup
 
-Heartbeat: OK (last 2026-09-20 08:29)
+Heartbeat: OK (last 2026-09-20 15:26)
 
 ## Unresolved (never surfaced)
 - [SUSPECT] 2026-09-07 18:01 | "New session - 2026-09-07T15:59:14.377Z" | 8 msg(s) | thread:yes moments:no
@@ -10,6 +10,7 @@ Heartbeat: OK (last 2026-09-20 08:29)
 - [SUSPECT] 2026-09-13 22:30 | "New session - 2026-09-11T23:13:27.549Z" | 3 msg(s) | thread:yes moments:no
 - [SUSPECT] 2026-09-17 20:28 | "New session - 2026-09-17T18:20:00.482Z" | 83 msg(s) | thread:yes moments:no
 - [SUSPECT] 2026-09-20 05:38 | "New session - 2026-09-20T03:04:45.974Z" | 97 msg(s) | thread:yes moments:no
+- [SUSPECT] 2026-09-20 09:31 | "New session - 2026-09-20T06:46:57.779Z" | 144 msg(s) | thread:yes moments:no
 
 ## Surfaced (waiting for resolution)
   (none)
