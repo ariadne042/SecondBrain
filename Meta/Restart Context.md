@@ -11,11 +11,11 @@ Why the plain "where we left off" isn't enough: when the user restarts opencode,
 
 ## Pending
 
-- 2026-09-20 ~05:55 -> AGENTS.md gained the **Crash-recovery check** startup hook (`crash-recover.mjs`) — recovers sessions cut by a crash/reboot. Needs opencode restart to load.
-- 2026-09-20 ~06:00 -> **Digest layer (Versicherung)** built: `session-digest.mjs` (`--list` / `--digest --limit 4` / `--grep <term>`), new `/digest` command (`~/.config/opencode/commands/digest.md`, interrupt-safe + streaming progress), and AGENTS.md gained the Digest-sweep + Conversation-archive startup bullets. All load on the one restart.
-- 2026-09-20 ~06:1x -> **Raw-db off-machine archive** built: `db-backup.sh` (weekly snapshot of `opencode.db` → gzip → private repo `ariadne042/opencode-db-archive`, monthly fresh-root reset), wired into `/save` step 4 + a new AGENTS.md bullet. AGENTS loads on the same restart.**Repo still needs creating** by the user (empty private `opencode-db-archive` on GitHub) — first `--force` run then does the initial push.
+- 2026-09-20 ~07:3x → **digest thinking-mode build**: `commands/digest.md` rewritten (two-pass: Fold + Think), `session-digest.mjs` gained `--think [--limit N]` + `--raw <session-id>` (full digests into `_system/digest-think/raw/`), AGENTS.md Digest-sweep + `/digest` entries updated, workspace.md created. Loads on next session start — no hard restart needed, but the pending reason is recorded for completeness. NOTE: **tui.json keybinds changed** (`tool_details` → `<leader>d`, `session_toggle_generic_tool_output` → `<leader>o`) — needs an opencode restart to load the keybinds.
 
 ## Log
+
+- 2026-09-20 (morning open) → loaded, all three consumed by today's fresh start: **Crash-recovery check** hook (crash-recover.mjs), **Digest layer** (session-digest.mjs --list/--digest/--grep + /digest command + Digest-sweep & Conversation-archive startup bullets), **Raw-db archive** (db-backup.sh → opencode-db-archive). NOTE: the backup repo was created and the first snapshot pushed the same night (06:14, post-crash, while the user was still up) — the pending "user action" note is resolved; db-backup.sh runs from /save now. Crash-recovery also fired on today's open (the 05:38–06:16 session was cut by the power loss at 06:16:21); its content self-logged into MEMORY live, marker touched.
 
 - 2026-09-17 ~20:2x → loaded (this fresh session): new **GM agent** `~/.config/opencode/agent/gm.md` written (primary agent, full grid+SecondBrain perms, GM persona). Restart consumed on 2026-09-17; next: Tab → GM, run from `/home/user/grid`, `./grid.sh`.
 
