@@ -6,9 +6,9 @@ The single main thing (a task or a conversation) we were focused on when we last
 
 ## Current main thread
 
-- **Thread:** Digest run spec: Fold + Think passes
-- **State:** auto-captured from the session title — the model never logged an explicit thread this session.
-- **Next step:** lift the `-- done` rule into AGENTS.md (Done-signal section) so every future session auto-enforces it — the one structural fix this anomaly exposed. Then return to the standing agenda: test `/digest` (staged raws waiting: crash session + Factorio session), then the future-of-the-brain-and-Ariadne planning talk + the owed "Ariadne's Hosting/Roadmap" doc. IRL still: Steam first-run extraction, Factorio (buy-when-able).
+- **Thread:** Digest run spec: Fold + Think passes — FULLY COMPLETE (09-20)
+- **State:** Pass 1 folded the ENTIRE 58-session backlog (nothing left to digest); Pass 2 (Think) ran twice — weekly synthesis written (09-08 brief + 09-15 week), T4 sleep/body read landed, 8 stale SUSPECT flags resolved (content verified via autosaves/fold), Anschreiben thinking-aid added to the Ausbildung Roadmap, Growth Map current-line refreshed to 09-20, all committed + pushed to origin.
+- **Next step:** the career one-sitting (AfA email + IHK call + BRD Anschreiben draft as ONE block — material ready in `Ausbildung Roadmap.md` §3). Then the future-of-the-brain-and-Ariadne planning talk + the owed "Ariadne's Hosting/Roadmap" doc. IRL still: lid.conf real content + reboot, Steam first-run extraction, Factorio (buy-when-able).
 
 ---
 
